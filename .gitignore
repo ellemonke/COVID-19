@@ -1,5 +1,5 @@
 .DS_Store
 .ipynb_checkpoints
 __pycache__
-config.js
+# config.js
 node_modules
