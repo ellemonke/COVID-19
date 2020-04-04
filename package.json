@@ -1,0 +1,23 @@
+{
+  "name": "COVID-19",
+  "version": "1.0.0",
+  "description": "This analysis is part of the [COVID19 Global Forecasting Coding Competition](https://www.kaggle.com/c/covid19-global-forecasting-week-2). See also the [COVID-19 Open Research Dataset (CORD-19)](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellemonke/COVID-19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellemonke/COVID-19/issues"
+  },
+  "homepage": "https://github.com/ellemonke/COVID-19#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

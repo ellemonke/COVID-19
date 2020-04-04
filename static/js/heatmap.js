@@ -11,42 +11,27 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-// var data = "static/resources/confirmed.geojson";
-// var url = "https://data.sfgov.org/resource/cuks-n6tp.json?$limit=10000";
-// var confirmed = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
+var data = "static/resources/confirmed.json";
 
+d3.json(data, function(response) {
 
-// const xhr = new XMLHttpRequest();
-// xhr.open('GET', 'static/resources/confirmed.geojson');
-// xhr.setRequestHeader('Content-Type', 'application/geojson');
-// xhr.responseType = 'geojson';
-// xhr.onload = function() {
-//     if (xhr.status !== 200) return
-//     L.geoJSON(xhr.response).addTo(map);
-// };
-// xhr.send();
+  console.log(response);
 
+  var heatArray = [];
 
-// var data = await(fetchJSON('static/resources/confirmed.geojson').then(function(data) { return data }));
+  for (var i = 0; i < response.length; i++) {
+    var lat = response[i].Lat;
+    var long = response[i].Long;
 
-// d3.json(data, function(response) {
+    if (location) {
+      heatArray.push([lat, long]);
+    }
+  }
 
-//   console.log(response);
+  var heat = L.heatLayer(heatArray, {
+    radius: 50,
+    blur: 5
+  }).addTo(myMap);
 
-//   var heatArray = [];
-
-  // for (var i = 0; i < response.length; i++) {
-  //   var location = response[i].location;
-
-  //   if (location) {
-  //     heatArray.push([location.coordinates[1], location.coordinates[0]]);
-  //   }
-  // }
-
-  // var heat = L.heatLayer(heatArray, {
-  //   radius: 20,
-  //   blur: 35
-  // }).addTo(myMap);
-
-// });
+});
 
