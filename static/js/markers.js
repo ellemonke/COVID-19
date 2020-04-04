@@ -1,6 +1,8 @@
 var myMap = L.map("map", {
+  // center: [20,-20],
   center: [37.7749, -122.4194],
-  zoom: 13
+  // zoom: 13
+  zoom: 3
 });
 
 // Adding tile layer
@@ -11,9 +13,10 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-var newtry = "https://data.sfgov.org/resource/cuks-n6tp.json?$limit=1000";
+var data = "https://data.sfgov.org/resource/cuks-n6tp.json?$limit=1000";
+// var data = "static/resources/confirmed.geojson";
 
-d3.json(newtry, function(response) {
+d3.json(data, function(response) {
 
   console.log(response);
 

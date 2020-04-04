@@ -1,3 +1,7 @@
 .DS_Store
 .ipynb_checkpoints
 __pycache__
+config.js
+node_modules
+package-lock.json
+package.json
