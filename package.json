@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ellemonke/COVID-19#readme",
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0"
   }
 }

@@ -1,5 +1,3 @@
-
-
 var data = "static/resources/confirmed-us.json";
 
 d3.json(data, function(response) {

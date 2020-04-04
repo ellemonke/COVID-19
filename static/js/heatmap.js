@@ -1,5 +1,3 @@
-
-
 var data = "static/resources/confirmed.json";
 
 d3.json(data, function(response) {
@@ -18,7 +16,6 @@ d3.json(data, function(response) {
 
   var myMap = L.map("map", {
     center: [20,-20],
-    // center: [37.7749, -122.4194],
     zoom: 3
   });
   
