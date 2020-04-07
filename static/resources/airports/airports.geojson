@@ -1,0 +1,455 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.36,25.248889 ]
+    },
+    "properties": {
+    "Rank":1,
+    "Airport":"Dubai International Airport",
+    "Location":"DUBAI",
+    "Code (IATA/ICAO)":"DXB",
+    "Total passengers":" 77 453 466 ",
+    "% change":10.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.452222,51.469722 ]
+    },
+    "properties": {
+    "Rank":2,
+    "Airport":"Heathrow Airport",
+    "Location":"LONDON",
+    "Code (IATA/ICAO)":"LHR",
+    "Total passengers":" 69 816 491 ",
+    "% change":2.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 113.914722,22.308889 ]
+    },
+    "properties": {
+    "Rank":3,
+    "Airport":"Hong Kong International Airport",
+    "Location":"HONG KONG",
+    "Code (IATA/ICAO)":"HKG",
+    "Total passengers":" 68 139 897 ",
+    "% change":8.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.548611,49.009722 ]
+    },
+    "properties": {
+    "Rank":4,
+    "Airport":"Aéroport de Paris-Charles de Gaulle",
+    "Location":"PARIS",
+    "Code (IATA/ICAO)":"CDG",
+    "Total passengers":" 60 369 798 ",
+    "% change":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.764167,52.308056 ]
+    },
+    "properties": {
+    "Rank":5,
+    "Airport":"Amsterdam Airport",
+    "Location":"AMSTERDAM",
+    "Code (IATA/ICAO)":"AMS",
+    "Total passengers":" 58 245 545 ",
+    "% change":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.991111,1.359167 ]
+    },
+    "properties": {
+    "Rank":6,
+    "Airport":"Singapore Changi Airport",
+    "Location":"SINGAPORE",
+    "Code (IATA/ICAO)":"SIN",
+    "Total passengers":" 54 835 000 ",
+    "% change":2.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.571389,50.034444 ]
+    },
+    "properties": {
+    "Rank":7,
+    "Airport":"Flughafen Frankfurt/Main",
+    "Location":"FRANKFURT",
+    "Code (IATA/ICAO)":"FRA",
+    "Total passengers":" 53 994 154 ",
+    "% change":2.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 126.375,37.425 ]
+    },
+    "properties": {
+    "Rank":8,
+    "Airport":"Incheon International Airport",
+    "Location":"INCHEON",
+    "Code (IATA/ICAO)":"ICN",
+    "Total passengers":" 48 720 319 ",
+    "% change":8.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.74888888888889,13.685833333333333 ]
+    },
+    "properties": {
+    "Rank":9,
+    "Airport":"Suvarnabhumi International Airport",
+    "Location":"BANGKOK",
+    "Code (IATA/ICAO)":"BKK",
+    "Total passengers":" 43 251 807 ",
+    "% change":16.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.815278,40.976667 ]
+    },
+    "properties": {
+    "Rank":10,
+    "Airport":"Atatürk International Airport",
+    "Location":"ISTANBUL",
+    "Code (IATA/ICAO)":"IST",
+    "Total passengers":" 42 302 859 ",
+    "% change":11.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.223889,25.081944 ]
+    },
+    "properties": {
+    "Rank":11,
+    "Airport":"Taiwan Taoyuan International Airport",
+    "Location":"TAIPEI",
+    "Code (IATA/ICAO)":"TPE",
+    "Total passengers":" 38 103 889 ",
+    "% change":7.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.19,51.152778 ]
+    },
+    "properties": {
+    "Rank":12,
+    "Airport":"Gatwick Airport",
+    "Location":"LONDON",
+    "Code (IATA/ICAO)":"LGW",
+    "Total passengers":" 36 667 769 ",
+    "% change":6.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 101.697778,2.743056 ]
+    },
+    "properties": {
+    "Rank":13,
+    "Airport":"KL International Airport",
+    "Location":"KUALA LUMPUR",
+    "Code (IATA/ICAO)":"KUL",
+    "Total passengers":" 34 434 015 ",
+    "% change":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.559444,40.473333 ]
+    },
+    "properties": {
+    "Rank":14,
+    "Airport":"Aeropuerto de Adolfo Suárez Madrid-Barajas",
+    "Location":"MADRID",
+    "Code (IATA/ICAO)":"MAD",
+    "Total passengers":" 33 787 171 ",
+    "% change":14.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.7875,48.354722 ]
+    },
+    "properties": {
+    "Rank":15,
+    "Airport":"Munich Airport",
+    "Location":"MUNICH",
+    "Code (IATA/ICAO)":"MUC",
+    "Total passengers":" 31 313 329 ",
+    "% change":3.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.565833,25.260278 ]
+    },
+    "properties": {
+    "Rank":16,
+    "Airport":"Hamad International Airport",
+    "Location":"DOHA",
+    "Code (IATA/ICAO)":"DOH",
+    "Total passengers":" 30 906 303 ",
+    "% change":17.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 140.39111100000002,35.763889 ]
+    },
+    "properties": {
+    "Rank":17,
+    "Airport":"Narita International Airport",
+    "Location":"TOKYO",
+    "Code (IATA/ICAO)":"NRT",
+    "Total passengers":" 30 547 564 ",
+    "% change":3.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.778056,40.64 ]
+    },
+    "properties": {
+    "Rank":18,
+    "Airport":"John F. Kennedy International Airport",
+    "Location":"NEW YORK NY",
+    "Code (IATA/ICAO)":"JFK",
+    "Total passengers":" 30 017 244 ",
+    "% change":6.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.078333,41.296944 ]
+    },
+    "properties": {
+    "Rank":19,
+    "Airport":"Aeropuerto de Barcelona-El Prat",
+    "Location":"BARCELONA",
+    "Code (IATA/ICAO)":"BCN",
+    "Total passengers":" 29 077 820 ",
+    "% change":6.7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.2525,41.811111 ]
+    },
+    "properties": {
+    "Rank":20,
+    "Airport":"Aeroporto di Roma-Fiumicino",
+    "Location":"ROME",
+    "Code (IATA/ICAO)":"FCO",
+    "Total passengers":" 28 280 267 ",
+    "% change":5.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.549167,47.459444 ]
+    },
+    "properties": {
+    "Rank":21,
+    "Airport":"Flughafen Zürich",
+    "Location":"ZURICH",
+    "Code (IATA/ICAO)":"ZRH",
+    "Total passengers":" 25 613 593 ",
+    "% change":3.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.63083299999998,43.677222 ]
+    },
+    "properties": {
+    "Rank":22,
+    "Airport":"Toronto Pearson International Airport",
+    "Location":"TORONTO ON",
+    "Code (IATA/ICAO)":"YYZ",
+    "Total passengers":" 25 123 887 ",
+    "% change":7.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.253333,53.431111 ]
+    },
+    "properties": {
+    "Rank":23,
+    "Airport":"Dublin Airport",
+    "Location":"DUBLIN",
+    "Code (IATA/ICAO)":"DUB",
+    "Total passengers":" 24 876 506 ",
+    "% change":14.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.657222,55.618611 ]
+    },
+    "properties": {
+    "Rank":24,
+    "Airport":"Copenhagen Airport",
+    "Location":"COPENHAGEN",
+    "Code (IATA/ICAO)":"CPH",
+    "Total passengers":" 24 639 122 ",
+    "% change":4.4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.79,31.141667 ]
+    },
+    "properties": {
+    "Rank":25,
+    "Airport":"Pudong International Airport",
+    "Location":"SHANGHAI",
+    "Code (IATA/ICAO)":"PVG",
+    "Total passengers":" 23 384 559 ",
+    "% change":18.3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.485833,50.902222 ]
+    },
+    "properties": {
+    "Rank":26,
+    "Airport":"Brussels Airport",
+    "Location":"BRUSSELS",
+    "Code (IATA/ICAO)":"BRU",
+    "Total passengers":" 23 225 980 ",
+    "% change":6.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.650556,24.436389 ]
+    },
+    "properties": {
+    "Rank":27,
+    "Airport":"Abu Dhabi International Airport",
+    "Location":"ABU DHABI",
+    "Code (IATA/ICAO)":"AUH",
+    "Total passengers":" 22 841 994 ",
+    "% change":18.6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 16.570833,48.110833 ]
+    },
+    "properties": {
+    "Rank":28,
+    "Airport":"Vienna International Airport",
+    "Location":"VIENNA",
+    "Code (IATA/ICAO)":"VIE",
+    "Total passengers":" 22 147 203 ",
+    "% change":1.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.290833,25.792778 ]
+    },
+    "properties": {
+    "Rank":29,
+    "Airport":"Miami International Airport",
+    "Location":"MIAMI FL",
+    "Code (IATA/ICAO)":"MIA",
+    "Total passengers":" 21 206 557 ",
+    "% change":5.5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.794722,36.900833 ]
+    },
+    "properties": {
+    "Rank":30,
+    "Airport":"Antalya International Airport",
+    "Location":"ANTALYA",
+    "Code (IATA/ICAO)":"AYT",
+    "Total passengers":" 20 786 255 ",
+    "% change":-5.8
+    }
+  }
+]
+}

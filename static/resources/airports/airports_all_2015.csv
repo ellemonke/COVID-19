@@ -1,0 +1,51 @@
+﻿Rank,Airport,Location,Country,Code (IATA/ICAO),Total passengers,% change
+1,Hartsfield-Jackson Atlanta International Airport,Atlanta GA,USA,ATL," 101,491,106 ",5.5
+2,Beijing Capital International Airport,Beijing,China (People's Republic of China),PEK," 89,938,628 ",4.4
+3,Dubai International Airport,Dubai,United Arab Emirates,DXB," 78,014,841 ",10.7
+4,O'Hare International Airport,Chicago IL,USA,ORD," 76,949,504 ",9.8
+5,Tokyo International (Haneda) Airport,Tokyo,Japan,HND," 75,573,106 ",3.8
+6,Heathrow Airport,London,United Kingdom,LHR," 74,989,795 ",2.2
+7,Los Angeles International Airport,Los Angeles CA,USA,LAX," 74,937,004 ",6.1
+8,Hong Kong International Airport,Hong Kong,"Hong Kong, China",HKG," 68,283,407 ",8.2
+9,Aéroport de Paris-Charles de Gaulle,Paris,France,CDG," 65,766,986 ",3.1
+10,Dallas/Ft Worth International Airport,Dallas/Fort Worth TX,USA,DFW," 65,512,163 ",2.6
+11,Atatürk International Airport,Istanbul,Turkey,IST," 61,346,229 ",8.2
+12,Flughafen Frankfurt/Main,Frankfurt,Germany,FRA," 61,032,022 ",2.5
+13,Pudong International Airport,Shanghai,China (People's Republic of China),PVG," 60,098,073 ",16.3
+14,Amsterdam Airport,Amsterdam,Netherlands,AMS," 58,284,864 ",6.0
+15,John F. Kennedy International Airport,New York NY,USA,JFK," 56,827,154 ",6.8
+16,Singapore Changi Airport,Singapore,Singapore,SIN," 55,449,000 ",2.5
+17,Guangzhou Bai Yun International Airport,Guangzhou,China (People's Republic of China),CAN," 55,201,915 ",0.8
+18,Soekarno-Hatta International Airport,Jakarta,Indonesia,CGK," 54,089,062 ",-5.5
+19,Denver International Airport,Denver CO,USA,DEN," 54,014,502 ",1.0
+20,Suvarnabhumi International Airport,Bangkok,Thailand,BKK," 52,902,110 ",14.0
+21,San Francisco International Airport,San Francisco CA,USA,SFO," 50,057,887 ",6.3
+22,Incheon International Airport,Incheon,Korea (Rep of Korea),ICN," 49,412,750 ",8.2
+23,KL International Airport,Kuala Lumpur,Malaysia,KUL," 48,938,424 ",0.0
+24,Aeropuerto de Adolfo Suárez Madrid-Barajas,Madrid,Spain,MAD," 46,779,554 ",12.0
+25,Indira Gandhi International Airport,New Delhi,India,DEL," 45,981,773 ",15.7
+26,McCarran International Airport,Las Vegas NV,USA,LAS," 45,443,900 ",5.8
+27,Charlotte Douglas International Airport,Charlotte NC,USA,CLT," 44,876,627 ",1.4
+28,Miami International Airport,Miami FL,USA,MIA," 44,350,247 ",8.3
+29,Sky Harbor International Airport,Phoenix AZ,USA,PHX," 44,003,840 ",4.5
+30,George Bush Intercontinental Airport,Houston TX,USA,IAH," 43,023,224 ",4.3
+31,Seattle-Tacoma International Airport,Seattle WA,USA,SEA," 42,340,537 ",12.9
+32,Chengdu Shuangliu International Airport,Chengdu,China (People's Republic of China),CTU," 42,244,842 ",12.0
+33,Toronto Pearson International Airport,Toronto ON,Canada,YYZ," 41,036,847 ",6.4
+34,Munich Airport,Munich,Germany,MUC," 40,981,522 ",3.2
+35,Chhatrapati Shivaji International Airport,Mumbai,India,BOM," 40,637,377 ",16.1
+36,Aeroporto di Roma-Fiumicino,Rome,Italy,FCO," 40,422,156 ",5.0
+37,Gatwick Airport,London,United Kingdom,LGW," 40,269,087 ",5.7
+38,Sydney International Airport,Sydney,Australia,SYD," 39,915,674 ",2.7
+39,Shenzhen Baoan International Airport,Shenzhen,China (People's Republic of China),SZX," 39,721,619 ",9.5
+40,Aeropuerto de Barcelona-El Prat,Barcelona,Spain,BCN," 39,674,095 ",5.7
+41,Guarulhos International Airport,São Paulo,Brazil,GRU," 39,213,865 ",-1.4
+42,Hongqiao International Airport,Shanghai,China (People's Republic of China),SHA," 39,090,865 ",3.0
+43,Orlando International Airport,Orlando FL,USA,MCO," 38,727,749 ",8.4
+44,Taiwan Taoyuan International Airport,Taipei,Chinese Taipei,TPE," 38,473,333 ",7.5
+45,"Aeropuerto Internacional de la Ciudad de México ""Lic Benito Juárez""",Mexico City,Mexico,MEX," 38,433,288 ",12.2
+46,Kunming International Airport,Kunming,China (People's Republic of China),KMG," 37,523,220 ",16.0
+47,Newark Liberty International Airport,Newark NJ,USA,EWR," 37,494,704 ",5.3
+48,Narita International Airport,Tokyo,Japan,NRT," 37,268,307 ",4.9
+49,Ninoy Aquino International Airport,Manila,Philippines,MNL," 36,583,459 ",7.3
+50,Minneapolis/St Paul International Airport,Minneapolis MN,USA,MSP," 36,582,854 ",4.1

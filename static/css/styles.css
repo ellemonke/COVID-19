@@ -1,0 +1,229 @@
+/* Main Template and Homepage */
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.container-fluid {
+    min-height: 100%;
+    min-width: 100%;    
+    position: relative;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+a, a:hover {
+    color: #337ab7;
+}
+
+h1, h2, h3, h4 {
+    color: #494949;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-top: 16px;
+}
+
+h2, h3, h4 {
+    font-size: 1.4em;
+    margin: 25px 0 8px 0;
+}
+
+header {
+    height: 160px;
+    border-bottom: 1px solid gray;
+    padding: 25px 55px;
+}
+
+header h1 {
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+h1 a, h1 a:hover {
+    text-decoration: none;
+}
+
+header nav {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    white-space: nowrap;
+}
+
+header nav li {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 7px 17px;
+    margin: 0;
+    white-space: nowrap;
+    outline: none !important;    
+}
+
+header nav li a {
+    text-decoration: underline;
+}
+
+header nav li.active {
+    color: #337ab7;
+}
+
+.main-content {
+    padding: 20px 55px 20px 50px;
+}
+
+.app {
+    min-width: 420px; 
+    margin-right: 50px; 
+    margin-bottom: 20px;
+}
+
+.form-group {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 15px 0 10px 15px;
+    padding: 30px 20px 20px 40px; 
+    width: 420px; 
+}
+
+.form-group p {
+    padding-bottom: 10px;
+}
+
+label.right { 
+    font-weight: normal;
+    text-align: right;
+    padding-right: 10px;
+    width: 175px;
+}
+
+input.wide { 
+    margin-bottom: 3px;
+    width: 100px; 
+}
+
+.submit { 
+    padding: 20px 15px 6px 15px; 
+}
+
+.scores { 
+    padding: 5px 15px 12px 15px; 
+}
+
+.scores h5 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.btn-primary { 
+    outline: none !important;    
+    width: 100px;
+}
+
+small {
+    margin-left: 4px;
+}
+
+#score, #hdi { 
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    color: green; 
+    font-size: 1.4em; 
+    margin-top: 5px;
+    min-height: 50px;
+    padding: 10px 30px;
+    width: 100px;
+}
+
+.summary {
+    padding: 0 30px 70px 15px;
+}
+
+/* Secondary Indicator specifc styles*/
+.lined .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: #494949;
+}
+  
+.lined .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+  
+.lined .nav-link.active {
+    background: none;
+    color: #D8D52B;
+    border-color: #D8D52B;
+}
+
+.indicator-option {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel-row {
+    margin-bottom: 60px;
+}
+
+.image-wrap {
+    height: 350px;
+    background-color: #e2e2e2;
+    position: relative;
+}
+
+.primary-image {
+    display: block;
+    left: 5%;
+    bottom: 5%;
+}
+
+.primary-image img {
+    height: 85%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-text-wrap{
+    display: block;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+.image-wrap img {
+    height: 75%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-wrap {
+    height: 290px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #e2e2e2;
+}
+
+footer {
+    border-top: 1px solid gray;
+    color: gray;
+    font-size: 0.8em;
+    bottom: 0;
+    height: 58px;
+    min-width: 100%;
+    padding: 23px 40px ;
+    position: absolute; 
+}

@@ -1,0 +1,31 @@
+Rank,Airport,Location,Code (IATA/ICAO),Total passengers,% change,Lat,Long
+1.0,Dubai International Airport,DUBAI,DXB, 77 453 466 ,10.7,25.248889,55.36
+2.0,Heathrow Airport,LONDON,LHR, 69 816 491 ,2.5,51.469722,-0.452222
+3.0,Hong Kong International Airport,HONG KONG,HKG, 68 139 897 ,8.3,22.308889,113.914722
+4.0,Aéroport de Paris-Charles de Gaulle,PARIS,CDG, 60 369 798 ,3.0,49.009722,2.548611
+5.0,Amsterdam Airport,AMSTERDAM,AMS, 58 245 545 ,6.0,52.308056,4.764167
+6.0,Singapore Changi Airport,SINGAPORE,SIN, 54 835 000 ,2.9,1.359167,103.991111
+7.0,Flughafen Frankfurt/Main,FRANKFURT,FRA, 53 994 154 ,2.4,50.034444,8.571389
+8.0,Incheon International Airport,INCHEON,ICN, 48 720 319 ,8.5,37.425,126.375
+9.0,Suvarnabhumi International Airport,BANGKOK,BKK, 43 251 807 ,16.3,13.685833333333333,100.74888888888889
+10.0,Atatürk International Airport,ISTANBUL,IST, 42 302 859 ,11.1,40.976667,28.815278
+11.0,Taiwan Taoyuan International Airport,TAIPEI,TPE, 38 103 889 ,7.6,25.081944,121.223889
+12.0,Gatwick Airport,LONDON,LGW, 36 667 769 ,6.4,51.152778,-0.19
+13.0,KL International Airport,KUALA LUMPUR,KUL, 34 434 015 ,0.0,2.743056,101.697778
+14.0,Aeropuerto de Adolfo Suárez Madrid-Barajas,MADRID,MAD, 33 787 171 ,14.1,40.473333,-3.559444
+15.0,Munich Airport,MUNICH,MUC, 31 313 329 ,3.5,48.354722,11.7875
+16.0,Hamad International Airport,DOHA,DOH, 30 906 303 ,17.3,25.260278,51.565833
+17.0,Narita International Airport,TOKYO,NRT, 30 547 564 ,3.2,35.763889,140.39111100000002
+18.0,John F. Kennedy International Airport,NEW YORK NY,JFK, 30 017 244 ,6.2,40.64,-73.778056
+19.0,Aeropuerto de Barcelona-El Prat,BARCELONA,BCN, 29 077 820 ,6.7,41.296944,2.078333
+20.0,Aeroporto di Roma-Fiumicino,ROME,FCO, 28 280 267 ,5.4,41.811111,12.2525
+21.0,Flughafen Zürich,ZURICH,ZRH, 25 613 593 ,3.1,47.459444,8.549167
+22.0,Toronto Pearson International Airport,TORONTO ON,YYZ, 25 123 887 ,7.6,43.677222,-79.63083299999998
+23.0,Dublin Airport,DUBLIN,DUB, 24 876 506 ,14.9,53.431111,-6.253333
+24.0,Copenhagen Airport,COPENHAGEN,CPH, 24 639 122 ,4.4,55.618611,12.657222
+25.0,Pudong International Airport,SHANGHAI,PVG, 23 384 559 ,18.3,31.141667,121.79
+26.0,Brussels Airport,BRUSSELS,BRU, 23 225 980 ,6.9,50.902222,4.485833
+27.0,Abu Dhabi International Airport,ABU DHABI,AUH, 22 841 994 ,18.6,24.436389,54.650556
+28.0,Vienna International Airport,VIENNA,VIE, 22 147 203 ,1.5,48.110833,16.570833
+29.0,Miami International Airport,MIAMI FL,MIA, 21 206 557 ,5.5,25.792778,-80.290833
+30.0,Antalya International Airport,ANTALYA,AYT, 20 786 255 ,-5.8,36.900833,30.794722

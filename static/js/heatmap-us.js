@@ -32,4 +32,3 @@ d3.json(data, function(response) {
   }).addTo(myMap);
 
 });
-

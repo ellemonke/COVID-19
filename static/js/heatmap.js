@@ -7,7 +7,7 @@ d3.json(data, function(response) {
   for (var i = 0; i < response.length; i++) {
     var lat = response[i].Lat;
     var long = response[i].Long;
-    var infections = response[i]['4/2/20']/20;
+    var infections = response[i]['4/2/20'];
 
     if (infections) {
       heatArray.push([lat, long, infections]);
