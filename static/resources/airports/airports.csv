@@ -1,31 +1,51 @@
-Rank,Airport,Location,Code (IATA/ICAO),Total passengers,% change,Lat,Long
-1.0,Dubai International Airport,DUBAI,DXB, 77 453 466 ,10.7,25.248889,55.36
-2.0,Heathrow Airport,LONDON,LHR, 69 816 491 ,2.5,51.469722,-0.452222
-3.0,Hong Kong International Airport,HONG KONG,HKG, 68 139 897 ,8.3,22.308889,113.914722
-4.0,Aéroport de Paris-Charles de Gaulle,PARIS,CDG, 60 369 798 ,3.0,49.009722,2.548611
-5.0,Amsterdam Airport,AMSTERDAM,AMS, 58 245 545 ,6.0,52.308056,4.764167
-6.0,Singapore Changi Airport,SINGAPORE,SIN, 54 835 000 ,2.9,1.359167,103.991111
-7.0,Flughafen Frankfurt/Main,FRANKFURT,FRA, 53 994 154 ,2.4,50.034444,8.571389
-8.0,Incheon International Airport,INCHEON,ICN, 48 720 319 ,8.5,37.425,126.375
-9.0,Suvarnabhumi International Airport,BANGKOK,BKK, 43 251 807 ,16.3,13.685833333333333,100.74888888888889
-10.0,Atatürk International Airport,ISTANBUL,IST, 42 302 859 ,11.1,40.976667,28.815278
-11.0,Taiwan Taoyuan International Airport,TAIPEI,TPE, 38 103 889 ,7.6,25.081944,121.223889
-12.0,Gatwick Airport,LONDON,LGW, 36 667 769 ,6.4,51.152778,-0.19
-13.0,KL International Airport,KUALA LUMPUR,KUL, 34 434 015 ,0.0,2.743056,101.697778
-14.0,Aeropuerto de Adolfo Suárez Madrid-Barajas,MADRID,MAD, 33 787 171 ,14.1,40.473333,-3.559444
-15.0,Munich Airport,MUNICH,MUC, 31 313 329 ,3.5,48.354722,11.7875
-16.0,Hamad International Airport,DOHA,DOH, 30 906 303 ,17.3,25.260278,51.565833
-17.0,Narita International Airport,TOKYO,NRT, 30 547 564 ,3.2,35.763889,140.39111100000002
-18.0,John F. Kennedy International Airport,NEW YORK NY,JFK, 30 017 244 ,6.2,40.64,-73.778056
-19.0,Aeropuerto de Barcelona-El Prat,BARCELONA,BCN, 29 077 820 ,6.7,41.296944,2.078333
-20.0,Aeroporto di Roma-Fiumicino,ROME,FCO, 28 280 267 ,5.4,41.811111,12.2525
-21.0,Flughafen Zürich,ZURICH,ZRH, 25 613 593 ,3.1,47.459444,8.549167
-22.0,Toronto Pearson International Airport,TORONTO ON,YYZ, 25 123 887 ,7.6,43.677222,-79.63083299999998
-23.0,Dublin Airport,DUBLIN,DUB, 24 876 506 ,14.9,53.431111,-6.253333
-24.0,Copenhagen Airport,COPENHAGEN,CPH, 24 639 122 ,4.4,55.618611,12.657222
-25.0,Pudong International Airport,SHANGHAI,PVG, 23 384 559 ,18.3,31.141667,121.79
-26.0,Brussels Airport,BRUSSELS,BRU, 23 225 980 ,6.9,50.902222,4.485833
-27.0,Abu Dhabi International Airport,ABU DHABI,AUH, 22 841 994 ,18.6,24.436389,54.650556
-28.0,Vienna International Airport,VIENNA,VIE, 22 147 203 ,1.5,48.110833,16.570833
-29.0,Miami International Airport,MIAMI FL,MIA, 21 206 557 ,5.5,25.792778,-80.290833
-30.0,Antalya International Airport,ANTALYA,AYT, 20 786 255 ,-5.8,36.900833,30.794722
+Rank,Airport,Location,Country,Code (IATA/ICAO),Total passengers,% change,Lat,Long
+1,Hartsfield-Jackson Atlanta International Airport,Atlanta GA,USA,ATL," 101,491,106 ",5.5,33.640278,-84.426944
+2,Beijing Capital International Airport,Beijing,China (People's Republic of China),PEK," 89,938,628 ",4.4,40.075,116.59
+3,Dubai International Airport,Dubai,United Arab Emirates,DXB," 78,014,841 ",10.7,25.248889,55.36
+4,O'Hare International Airport,Chicago IL,USA,ORD," 76,949,504 ",9.8,41.979722,-87.904444
+5,Tokyo International (Haneda) Airport,Tokyo,Japan,HND," 75,573,106 ",3.8,35.54805600000001,139.770278
+6,Heathrow Airport,London,United Kingdom,LHR," 74,989,795 ",2.2,51.469722,-0.452222
+7,Los Angeles International Airport,Los Angeles CA,USA,LAX," 74,937,004 ",6.1,33.9425,-118.406944
+8,Hong Kong International Airport,Hong Kong,"Hong Kong, China",HKG," 68,283,407 ",8.2,22.308889,113.914722
+9,Aéroport de Paris-Charles de Gaulle,Paris,France,CDG," 65,766,986 ",3.1,49.009722,2.548611
+10,Dallas/Ft Worth International Airport,Dallas/Fort Worth TX,USA,DFW," 65,512,163 ",2.6,32.896111,-97.041111
+11,Atatürk International Airport,Istanbul,Turkey,IST," 61,346,229 ",8.2,40.976667,28.815278
+12,Flughafen Frankfurt/Main,Frankfurt,Germany,FRA," 61,032,022 ",2.5,50.034444,8.571389
+13,Pudong International Airport,Shanghai,China (People's Republic of China),PVG," 60,098,073 ",16.3,31.141667,121.79
+14,Amsterdam Airport,Amsterdam,Netherlands,AMS," 58,284,864 ",6.0,52.308056,4.764167
+15,John F. Kennedy International Airport,New York NY,USA,JFK," 56,827,154 ",6.8,40.64,-73.778056
+16,Singapore Changi Airport,Singapore,Singapore,SIN," 55,449,000 ",2.5,1.359167,103.991111
+17,Guangzhou Bai Yun International Airport,Guangzhou,China (People's Republic of China),CAN," 55,201,915 ",0.8,23.184444,113.265
+18,Soekarno-Hatta International Airport,Jakarta,Indonesia,CGK," 54,089,062 ",-5.5,-6.125556,106.657778
+19,Denver International Airport,Denver CO,USA,DEN," 54,014,502 ",1.0,39.862778,-104.6575
+20,Suvarnabhumi International Airport,Bangkok,Thailand,BKK," 52,902,110 ",14.0,13.685833333333333,100.74888888888889
+21,San Francisco International Airport,San Francisco CA,USA,SFO," 50,057,887 ",6.3,37.618611,-122.373611
+22,Incheon International Airport,Incheon,Korea (Rep of Korea),ICN," 49,412,750 ",8.2,37.425,126.375
+23,KL International Airport,Kuala Lumpur,Malaysia,KUL," 48,938,424 ",0.0,2.743056,101.697778
+24,Aeropuerto de Adolfo Suárez Madrid-Barajas,Madrid,Spain,MAD," 46,779,554 ",12.0,40.473333,-3.559444
+25,Indira Gandhi International Airport,New Delhi,India,DEL," 45,981,773 ",15.7,28.568611,77.11333299999998
+26,McCarran International Airport,Las Vegas NV,USA,LAS," 45,443,900 ",5.8,36.082778,-115.153333
+27,Charlotte Douglas International Airport,Charlotte NC,USA,CLT," 44,876,627 ",1.4,35.21416700000001,-80.943611
+28,Miami International Airport,Miami FL,USA,MIA," 44,350,247 ",8.3,25.792778,-80.290833
+29,Sky Harbor International Airport,Phoenix AZ,USA,PHX," 44,003,840 ",4.5,33.435833,-112.00861100000002
+30,George Bush Intercontinental Airport,Houston TX,USA,IAH," 43,023,224 ",4.3,29.98,-95.339444
+31,Seattle-Tacoma International Airport,Seattle WA,USA,SEA," 42,340,537 ",12.9,47.449167,-122.308056
+32,Chengdu Shuangliu International Airport,Chengdu,China (People's Republic of China),CTU," 42,244,842 ",12.0,30.578333,103.948333
+33,Toronto Pearson International Airport,Toronto ON,Canada,YYZ," 41,036,847 ",6.4,43.677222,-79.63083299999998
+34,Munich Airport,Munich,Germany,MUC," 40,981,522 ",3.2,48.354722,11.7875
+35,Chhatrapati Shivaji International Airport,Mumbai,India,BOM," 40,637,377 ",16.1,19.090833,72.866667
+36,Aeroporto di Roma-Fiumicino,Rome,Italy,FCO," 40,422,156 ",5.0,41.811111,12.2525
+37,Gatwick Airport,London,United Kingdom,LGW," 40,269,087 ",5.7,51.152778,-0.19
+38,Sydney International Airport,Sydney,Australia,SYD," 39,915,674 ",2.7,-33.9475,151.175833
+39,Shenzhen Baoan International Airport,Shenzhen,China (People's Republic of China),SZX," 39,721,619 ",9.5,22.638333,113.811667
+40,Aeropuerto de Barcelona-El Prat,Barcelona,Spain,BCN," 39,674,095 ",5.7,41.296944,2.078333
+41,Guarulhos International Airport,São Paulo,Brazil,GRU," 39,213,865 ",-1.4,-23.435556,-46.473333
+42,Hongqiao International Airport,Shanghai,China (People's Republic of China),SHA," 39,090,865 ",3.0,31.197778000000003,121.333333
+43,Orlando International Airport,Orlando FL,USA,MCO," 38,727,749 ",8.4,28.431389,-81.324444
+44,Taiwan Taoyuan International Airport,Taipei,Chinese Taipei,TPE," 38,473,333 ",7.5,25.081944,121.223889
+45,"Aeropuerto Internacional de la Ciudad de México ""Lic Benito Juárez""",Mexico City,Mexico,MEX," 38,433,288 ",12.2,19.438611,-99.066389
+46,Kunming International Airport,Kunming,China (People's Republic of China),KMG," 37,523,220 ",16.0,25.0,102.75
+47,Newark Liberty International Airport,Newark NJ,USA,EWR," 37,494,704 ",5.3,40.693056,-74.168611
+48,Narita International Airport,Tokyo,Japan,NRT," 37,268,307 ",4.9,35.763889,140.39111100000002
+49,Ninoy Aquino International Airport,Manila,Philippines,MNL," 36,583,459 ",7.3,14.511389,121.015833
+50,Minneapolis/St Paul International Airport,Minneapolis MN,USA,MSP," 36,582,854 ",4.1,44.884167,-93.214722

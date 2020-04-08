@@ -1,5 +1,5 @@
 var airportUrl = "static/resources/airports/airports.geojson";
-var confirmedUrl = "static/resources/confirmed.geojson";
+var confirmedUrl = "static/resources/confirmed-us.geojson";
 
 d3.json(airportUrl, function(airportData) {
   var airports = createFeatures(airportData.features);
@@ -32,37 +32,21 @@ function createFeatures(airportData) {
 
 function createHeatmap(confirmedData) {
 
-  // function onEachFeature(feature, layer) {
-  //   infections = feature.properties['4/2/20'];
-  //   layer.bindPopup("Confirmed: " + infections);
-  // }
-
-  // var markers = L.geoJSON(airportData, {
-  //   onEachFeature: onEachFeature
-  // });
-
-  // var heat = L.markerClusterGroup();
+  var heatArray = [];
 
   for (var i = 0; i < confirmedData.length; i++) {
     var location = confirmedData[i].geometry;
-    var infections = confirmedData[i].properties['4/2/20'];
+    var infections = confirmedData[i].properties['4/6/20'];
 
-    // heat.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
-    //   .bindPopup("Confirmed: " + infections));
-
-    if (location) {
-      var heat = L.heatLayer([location.coordinates[0], location.coordinates[1], infections], {
-        radius: 20,
-        blur: 15
-      });
+    if (infections) {
+      heatArray.push([location.coordinates[1], location.coordinates[0], infections]);
     }
+  }
 
-  };
-
-  // var heat = L.heatLayer(heatArray, {
-  //   radius: 20,
-  //   blur: 15
-  // });
+  var heat = L.heatLayer(heatArray, {
+    radius: 20,
+    blur: 15
+  });
 
   return heat;
 }
