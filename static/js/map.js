@@ -1,5 +1,5 @@
 var airportUrl = "static/resources/airports/airports.geojson";
-var confirmedUrl = "static/resources/confirmed-us.geojson";
+var confirmedUrl = "static/resources/confirmed.geojson";
 
 d3.json(airportUrl, function(airportData) {
   var airports = createFeatures(airportData.features);
@@ -17,9 +17,9 @@ function createFeatures(airportData) {
   function onEachFeature(feature, layer) {
     passengers = feature.properties['Total passengers']
     passengers = passengers.split(/ /).join('')
-    layer.bindPopup(feature.properties.Airport + "<br />" + 
-      "Rank: " + feature.properties.Rank + "<br />" + 
-      "Intl Passengers: " + passengers);
+    layer.bindPopup("<b>" + feature.properties.Airport + "</b><br />" + 
+      "Passengers: <b>" + passengers.split(/,/)[0] + " M</b><br />" +
+      "Rank: <b>" + feature.properties.Rank + "</b><br />");
   }
 
   var markers = L.geoJSON(airportData, {
@@ -36,7 +36,7 @@ function createHeatmap(confirmedData) {
 
   for (var i = 0; i < confirmedData.length; i++) {
     var location = confirmedData[i].geometry;
-    var infections = confirmedData[i].properties['4/6/20'];
+    var infections = confirmedData[i].properties['4/7/20'];
 
     if (infections) {
       heatArray.push([location.coordinates[1], location.coordinates[0], infections]);
