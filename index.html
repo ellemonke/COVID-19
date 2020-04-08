@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
   <title>COVID-19 Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/59aae0ebe9.css">
+  <link href="static/css/fontawesome-free/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,31 +20,70 @@
 
     <!-- Header -->
     <header class="row">
-      <h1><a href="/">COVID-19</a></h1>
+      <h1><a href="/">COVID-19 Analysis</a></h1>
       <!-- Navigation -->
       <nav>
           <ul>
-              <li class="active">Dashboard</li>
+              <li class="active">Summary</li>
+              <li><a href="/">Health</a></li>
+              <li><a href="/">International Travel</a></li>
               <li><a href="/map.html">World Map</a></li>
           </ul>
       </nav>
     </header>
 
     <div class="row main-content">
-      <h3>Our Research</h3>
-      <img src="static/images/countries_byday.png" /><br />
-      <p>For this project we were interested in analyzing the World Development Indicators (WDI)
-        that have been tracked by the World Bank for more than 50 years in order to help achieve global development goals. 
-        In conjunction, the U.N. has developed the Human Development Index (HDI) to focus 
-        on the criteria that define human achievement beyond just economic development. We wanted to discover which WDIs in 
-        particular affect HDI and what level of values can help increase HDI. Our "primary" indicators 
-        were simply those that most countries have data for and have been tracked the longest. Our "secondary" indicators are ones
-        that we discovered to be highly related to HDI and worth exploring, despite less availability of tracked data.</p>
+      <form class="row">
+          <select name="year" id="year" class="country">
+            <option value="">Global</option>
+            <option value="">United States</option>
+            <option value="">China</option>
+            <option value="">Italy</option>
+            <option value="">Iran</option>
+          </select>
+      </form>
+
+      <div class="row stats">
+        <div class="stat tested">Tested<h4>60,000</h4></div>
+        <div class="stat confirmed">Confirmed<h4>20,000</h4></div>
+        <div class="stat fatalities">Fatalities<h4>3,500</h4></div>
+      </div>
+
+      <div class="row charts">
+        <div class="col-sm-12 col-md-6">
+          <div class="chart">
+            <h4>Confirmed Cases</h4>
+            <img src="static/images/model_sir.png" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class="chart">
+            <h4>Confirmed v. Fatalities</h4>
+            <img src="static/images/model_sir.png" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
+          </div>
+        </div>
+      </div>
+
+
     </div>
 
     <!-- Footer -->
     <footer class="row">
-      <p>&copy;2020 Ellen Hsu</p>
+        <div class="social">
+          &copy; 2020 Ellen Hsu&nbsp;
+          <a href="mailto:ellemonke@gmail.com" title="Email: ellemonke@gmail.com" target="_blank">
+            <i class="far fa-envelope"></i>
+          </a>
+          <a href="https://github.com/ellemonke" title="GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ellenyhsu/" title="LinkedIn" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
     </footer>
 
   </div>
