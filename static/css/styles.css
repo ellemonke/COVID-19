@@ -1,33 +1,27 @@
-/* Main Template and Homepage */
-html, body, #map {
-    font-family: Arial, Helvetica, sans-serif;
+html, body {
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.3em;
     margin: 0;
     height: 100%;
     width: 100%;
 }
 
 .container-fluid {
+    /* font-family: 'Source Sans Pro', Arial, sans-serif; */
+    font-family: 'Noto Sans', Arial, sans-serif;    
     min-height: 100%;
-    min-width: 100%;   
+    width: 100%;   
     position: relative;
-}
-
-p {
-    line-height: 1.4em;
-}
-
-a, a:hover {
-    color: #00BCD5;
 }
 
 h1, h2, h3, h4 {
     color: #555;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.4em;
     line-height: 1.5em;
     margin-top: 16px;
+    padding-left: 15px;
 }
 
 h2, h3, h4 {
@@ -35,25 +29,32 @@ h2, h3, h4 {
     margin: 25px 0 8px 0;
 }
 
+ol {
+    padding-top: 7px;
+}
+
 header {
+    background-color: #337AB7;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
     height: 120px;
     padding: 25px 55px;
     position: relative;
 }
 
-header h1 {
+header h1 a,
+header h1 a:hover,
+header h1 a:active,
+header h1 a:visited {
+    color: #FFF;
     margin-right: 40px;
     white-space: nowrap;
-}
-
-h1 a, h1 a:hover {
-    color: #337ab7;
     text-decoration: none;
 }
 
 header nav {
     position: absolute;
-    right: 28px;
+    right: 52px;
     top: 50px;
     white-space: nowrap;
 }
@@ -61,26 +62,36 @@ header nav {
 header nav li {
     display: inline-block;
     font-size: 1.2em;
+    font-weight: bold;
     padding: 7px 17px;
     margin: 0;
     white-space: nowrap;
     outline: none !important;    
 }
 
-header nav li a {
-    text-decoration: underline;
+header nav li a,
+header nav li a:hover,
+header nav li a:active,
+header nav li a:visited {
+    color: #FDC323;
+    text-decoration: none;
 }
 
 header nav li.active {
-    color: #337ab7;
+    color: #FFF;
 }
 
 .main-content {
     background-color: #F3F3F3;
     padding: 37px 55px 35px 50px;
-    margin-bottom: 52px;   /* same height as footer*/
-    min-height: 82%;
-    position: absolute;
+    height: 80%;
+    position: relative;
+}
+
+.main-content a {
+    /* color: #00BCD5; */
+    color: #337ab7;
+    text-decoration: none;
 }
 
 select.country {
@@ -88,14 +99,14 @@ select.country {
     border: 0;
     box-shadow: 3px 2px 5px lightgrey;
     color: #555;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: bold;
     height: 38px;
     left: 40px;
     margin-bottom: 10px;
     outline: none !important;    
     position: relative;
-    width: 150px;
+    width: 200px;
 }
 
 .stats {
@@ -119,20 +130,27 @@ select.country {
 }
 
 .stat h4 {
-    font-size: 1.6em;
-    margin: 2px 0 -4px 0;
+    font-size: 1.2em;
+    margin: 2px auto;
+    padding: 0;
 }
 
-.tested h4 {
+.tested {
     color: #38BB9B;
+    font-size: 1.5em;
+    margin-top: 7px;
 }
 
-.confirmed h4 {
+.confirmed {
     color: #FE5722;
+    font-size: 1.5em;
+    margin-top: 7px;
 }
 
-.fatalities h4 {
+.fatalities {
     color: #337ab7;
+    font-size: 1.5em;
+    margin-top: 7px;
 }
 
 .charts {
@@ -144,7 +162,12 @@ select.country {
     border-radius: 5px;
     box-shadow: 2px 6px 6px lightgrey;
     margin: 0 5px 30px 22px;
-    padding: 10px 35px 20px 35px;
+    padding: 10px 35px 10px 35px;
+    text-align: justify;
+}
+
+.chart h3 {
+    font-size: 1.4em;
 }
 
 .chart h4 {
@@ -152,16 +175,53 @@ select.country {
     margin: 20px 0 0 0;
 }
 
+.chart p {
+    padding: 9px 12px 24px 12px;
+}
+
 .chart img {
     position: relative;
     width: 100%;
 }
 
-footer .social a, footer .social a:hover {
+.heading {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: -20px auto -10px auto;
+    width: 80%;
+}
+
+.heading h3 {
+    font-size: 1.4em;
+    padding: 20px 30px;
+}
+
+.summary {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.summary p {
+    padding: 20px 30px;
+}
+
+#map {
+    margin: 0 auto;
+    height: 450px;
+    width: 80%;
+    position: relative;
+}
+
+footer .social a {
     color: #555;
-    font-size: 1.25em;
-    margin: 0 2px;
+    font-size: 1.2em;
+    margin: 0 3px;
     text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #337AB7;
 }
 
 footer {
@@ -169,8 +229,27 @@ footer {
     border-top: 1px solid #f3f3f3;
     bottom: 0;
     color: #494949;
-    padding: 18px 40px;
-    position: fixed; 
+    padding: 18px 55px;
+    position: relative; 
     height: 55px;
     width: 100%;
+}
+
+@media (max-width:940px) {
+    header nav {
+        position: absolute;
+        left: 28px;
+        top: 81px;
+        white-space: nowrap;
+    }
+    header nav li {
+        padding: 7px 4px;
+    }
+    #map {
+        width: 100%;
+    }
+    .heading,
+    .summary {
+        width: 100%;
+    }
 }

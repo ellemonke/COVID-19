@@ -1,51 +1,51 @@
-Rank,Airport,Location,Country,Code (IATA/ICAO),Total passengers,% change,Lat,Long
-1,Hartsfield-Jackson Atlanta International Airport,Atlanta GA,USA,ATL," 101,491,106 ",5.5,33.640278,-84.426944
-2,Beijing Capital International Airport,Beijing,China (People's Republic of China),PEK," 89,938,628 ",4.4,40.075,116.59
-3,Dubai International Airport,Dubai,United Arab Emirates,DXB," 78,014,841 ",10.7,25.248889,55.36
-4,O'Hare International Airport,Chicago IL,USA,ORD," 76,949,504 ",9.8,41.979722,-87.904444
-5,Tokyo International (Haneda) Airport,Tokyo,Japan,HND," 75,573,106 ",3.8,35.54805600000001,139.770278
-6,Heathrow Airport,London,United Kingdom,LHR," 74,989,795 ",2.2,51.469722,-0.452222
-7,Los Angeles International Airport,Los Angeles CA,USA,LAX," 74,937,004 ",6.1,33.9425,-118.406944
-8,Hong Kong International Airport,Hong Kong,"Hong Kong, China",HKG," 68,283,407 ",8.2,22.308889,113.914722
-9,Aéroport de Paris-Charles de Gaulle,Paris,France,CDG," 65,766,986 ",3.1,49.009722,2.548611
-10,Dallas/Ft Worth International Airport,Dallas/Fort Worth TX,USA,DFW," 65,512,163 ",2.6,32.896111,-97.041111
-11,Atatürk International Airport,Istanbul,Turkey,IST," 61,346,229 ",8.2,40.976667,28.815278
-12,Flughafen Frankfurt/Main,Frankfurt,Germany,FRA," 61,032,022 ",2.5,50.034444,8.571389
-13,Pudong International Airport,Shanghai,China (People's Republic of China),PVG," 60,098,073 ",16.3,31.141667,121.79
-14,Amsterdam Airport,Amsterdam,Netherlands,AMS," 58,284,864 ",6.0,52.308056,4.764167
-15,John F. Kennedy International Airport,New York NY,USA,JFK," 56,827,154 ",6.8,40.64,-73.778056
-16,Singapore Changi Airport,Singapore,Singapore,SIN," 55,449,000 ",2.5,1.359167,103.991111
-17,Guangzhou Bai Yun International Airport,Guangzhou,China (People's Republic of China),CAN," 55,201,915 ",0.8,23.184444,113.265
-18,Soekarno-Hatta International Airport,Jakarta,Indonesia,CGK," 54,089,062 ",-5.5,-6.125556,106.657778
-19,Denver International Airport,Denver CO,USA,DEN," 54,014,502 ",1.0,39.862778,-104.6575
-20,Suvarnabhumi International Airport,Bangkok,Thailand,BKK," 52,902,110 ",14.0,13.685833333333333,100.74888888888889
-21,San Francisco International Airport,San Francisco CA,USA,SFO," 50,057,887 ",6.3,37.618611,-122.373611
-22,Incheon International Airport,Incheon,Korea (Rep of Korea),ICN," 49,412,750 ",8.2,37.425,126.375
-23,KL International Airport,Kuala Lumpur,Malaysia,KUL," 48,938,424 ",0.0,2.743056,101.697778
-24,Aeropuerto de Adolfo Suárez Madrid-Barajas,Madrid,Spain,MAD," 46,779,554 ",12.0,40.473333,-3.559444
-25,Indira Gandhi International Airport,New Delhi,India,DEL," 45,981,773 ",15.7,28.568611,77.11333299999998
-26,McCarran International Airport,Las Vegas NV,USA,LAS," 45,443,900 ",5.8,36.082778,-115.153333
-27,Charlotte Douglas International Airport,Charlotte NC,USA,CLT," 44,876,627 ",1.4,35.21416700000001,-80.943611
-28,Miami International Airport,Miami FL,USA,MIA," 44,350,247 ",8.3,25.792778,-80.290833
-29,Sky Harbor International Airport,Phoenix AZ,USA,PHX," 44,003,840 ",4.5,33.435833,-112.00861100000002
-30,George Bush Intercontinental Airport,Houston TX,USA,IAH," 43,023,224 ",4.3,29.98,-95.339444
-31,Seattle-Tacoma International Airport,Seattle WA,USA,SEA," 42,340,537 ",12.9,47.449167,-122.308056
-32,Chengdu Shuangliu International Airport,Chengdu,China (People's Republic of China),CTU," 42,244,842 ",12.0,30.578333,103.948333
-33,Toronto Pearson International Airport,Toronto ON,Canada,YYZ," 41,036,847 ",6.4,43.677222,-79.63083299999998
-34,Munich Airport,Munich,Germany,MUC," 40,981,522 ",3.2,48.354722,11.7875
-35,Chhatrapati Shivaji International Airport,Mumbai,India,BOM," 40,637,377 ",16.1,19.090833,72.866667
-36,Aeroporto di Roma-Fiumicino,Rome,Italy,FCO," 40,422,156 ",5.0,41.811111,12.2525
-37,Gatwick Airport,London,United Kingdom,LGW," 40,269,087 ",5.7,51.152778,-0.19
-38,Sydney International Airport,Sydney,Australia,SYD," 39,915,674 ",2.7,-33.9475,151.175833
-39,Shenzhen Baoan International Airport,Shenzhen,China (People's Republic of China),SZX," 39,721,619 ",9.5,22.638333,113.811667
-40,Aeropuerto de Barcelona-El Prat,Barcelona,Spain,BCN," 39,674,095 ",5.7,41.296944,2.078333
-41,Guarulhos International Airport,São Paulo,Brazil,GRU," 39,213,865 ",-1.4,-23.435556,-46.473333
-42,Hongqiao International Airport,Shanghai,China (People's Republic of China),SHA," 39,090,865 ",3.0,31.197778000000003,121.333333
-43,Orlando International Airport,Orlando FL,USA,MCO," 38,727,749 ",8.4,28.431389,-81.324444
-44,Taiwan Taoyuan International Airport,Taipei,Chinese Taipei,TPE," 38,473,333 ",7.5,25.081944,121.223889
-45,"Aeropuerto Internacional de la Ciudad de México ""Lic Benito Juárez""",Mexico City,Mexico,MEX," 38,433,288 ",12.2,19.438611,-99.066389
-46,Kunming International Airport,Kunming,China (People's Republic of China),KMG," 37,523,220 ",16.0,25.0,102.75
-47,Newark Liberty International Airport,Newark NJ,USA,EWR," 37,494,704 ",5.3,40.693056,-74.168611
-48,Narita International Airport,Tokyo,Japan,NRT," 37,268,307 ",4.9,35.763889,140.39111100000002
-49,Ninoy Aquino International Airport,Manila,Philippines,MNL," 36,583,459 ",7.3,14.511389,121.015833
-50,Minneapolis/St Paul International Airport,Minneapolis MN,USA,MSP," 36,582,854 ",4.1,44.884167,-93.214722
+Rank,Airport,Location,Country,Code (IATA/ICAO),Total passengers,% change,Lat,Long,Type
+1,Hartsfield-Jackson Atlanta International Airport,Atlanta GA,USA,ATL," 101,491,106 ",5.5,33.640278,-84.42694399999999,Domestic
+2,Beijing Capital International Airport,Beijing,China (People's Republic of China),PEK," 89,938,628 ",4.4,40.075,116.59,Domestic
+3,Dubai International Airport,Dubai,United Arab Emirates,DXB," 78,014,841 ",10.7,25.248889000000002,55.36,International
+4,O'Hare International Airport,Chicago IL,USA,ORD," 76,949,504 ",9.8,41.979721999999995,-87.904444,Domestic
+5,Tokyo International (Haneda) Airport,Tokyo,Japan,HND," 75,573,106 ",3.8,35.54805600000001,139.770278,Domestic
+6,Heathrow Airport,London,United Kingdom,LHR," 74,989,795 ",2.2,51.469722,-0.452222,International
+7,Los Angeles International Airport,Los Angeles CA,USA,LAX," 74,937,004 ",6.1,33.9425,-118.406944,Domestic
+8,Hong Kong International Airport,Hong Kong,"Hong Kong, China",HKG," 68,283,407 ",8.2,22.308889,113.914722,International
+9,Aéroport de Paris-Charles de Gaulle,Paris,France,CDG," 65,766,986 ",3.1,49.009722,2.548611,International
+10,Dallas/Ft Worth International Airport,Dallas/Fort Worth TX,USA,DFW," 65,512,163 ",2.6,32.896111,-97.041111,Domestic
+11,Atatürk International Airport,Istanbul,Turkey,IST," 61,346,229 ",8.2,40.976667,28.815278000000003,International
+12,Flughafen Frankfurt/Main,Frankfurt,Germany,FRA," 61,032,022 ",2.5,50.034444,8.571389,International
+13,Pudong International Airport,Shanghai,China (People's Republic of China),PVG," 60,098,073 ",16.3,31.141666999999998,121.79,International
+14,Amsterdam Airport,Amsterdam,Netherlands,AMS," 58,284,864 ",6.0,52.308056,4.764167,International
+15,John F. Kennedy International Airport,New York NY,USA,JFK," 56,827,154 ",6.8,40.64,-73.778056,International
+16,Singapore Changi Airport,Singapore,Singapore,SIN," 55,449,000 ",2.5,1.359167,103.991111,International
+17,Guangzhou Bai Yun International Airport,Guangzhou,China (People's Republic of China),CAN," 55,201,915 ",0.8,23.184444,113.265,Domestic
+18,Soekarno-Hatta International Airport,Jakarta,Indonesia,CGK," 54,089,062 ",-5.5,-6.125556,106.65777800000001,Domestic
+19,Denver International Airport,Denver CO,USA,DEN," 54,014,502 ",1.0,39.862778000000006,-104.6575,Domestic
+20,Suvarnabhumi International Airport,Bangkok,Thailand,BKK," 52,902,110 ",14.0,13.685833333333333,100.74888888888887,International
+21,San Francisco International Airport,San Francisco CA,USA,SFO," 50,057,887 ",6.3,37.618611,-122.37361100000001,Domestic
+22,Incheon International Airport,Incheon,Korea (Rep of Korea),ICN," 49,412,750 ",8.2,37.425,126.375,International
+23,KL International Airport,Kuala Lumpur,Malaysia,KUL," 48,938,424 ",0.0,2.743056,101.697778,International
+24,Aeropuerto de Adolfo Suárez Madrid-Barajas,Madrid,Spain,MAD," 46,779,554 ",12.0,40.473333000000004,-3.559444,International
+25,Indira Gandhi International Airport,New Delhi,India,DEL," 45,981,773 ",15.7,28.568610999999997,77.11333299999998,Domestic
+26,McCarran International Airport,Las Vegas NV,USA,LAS," 45,443,900 ",5.8,36.082778000000005,-115.153333,Domestic
+27,Charlotte Douglas International Airport,Charlotte NC,USA,CLT," 44,876,627 ",1.4,35.21416700000001,-80.943611,Domestic
+28,Miami International Airport,Miami FL,USA,MIA," 44,350,247 ",8.3,25.792778,-80.29083299999999,International
+29,Sky Harbor International Airport,Phoenix AZ,USA,PHX," 44,003,840 ",4.5,33.435833,-112.00861100000002,Domestic
+30,George Bush Intercontinental Airport,Houston TX,USA,IAH," 43,023,224 ",4.3,29.98,-95.339444,Domestic
+31,Seattle-Tacoma International Airport,Seattle WA,USA,SEA," 42,340,537 ",12.9,47.449166999999996,-122.30805600000001,Domestic
+32,Chengdu Shuangliu International Airport,Chengdu,China (People's Republic of China),CTU," 42,244,842 ",12.0,30.578333,103.94833299999999,Domestic
+33,Toronto Pearson International Airport,Toronto ON,Canada,YYZ," 41,036,847 ",6.4,43.677222,-79.63083299999998,International
+34,Munich Airport,Munich,Germany,MUC," 40,981,522 ",3.2,48.354721999999995,11.7875,International
+35,Chhatrapati Shivaji International Airport,Mumbai,India,BOM," 40,637,377 ",16.1,19.090833,72.866667,Domestic
+36,Aeroporto di Roma-Fiumicino,Rome,Italy,FCO," 40,422,156 ",5.0,41.811111,12.2525,International
+37,Gatwick Airport,London,United Kingdom,LGW," 40,269,087 ",5.7,51.152778000000005,-0.19,International
+38,Sydney International Airport,Sydney,Australia,SYD," 39,915,674 ",2.7,-33.9475,151.175833,Domestic
+39,Shenzhen Baoan International Airport,Shenzhen,China (People's Republic of China),SZX," 39,721,619 ",9.5,22.638333,113.81166699999999,Domestic
+40,Aeropuerto de Barcelona-El Prat,Barcelona,Spain,BCN," 39,674,095 ",5.7,41.296944,2.078333,International
+41,Guarulhos International Airport,São Paulo,Brazil,GRU," 39,213,865 ",-1.4,-23.435556,-46.473333000000004,Domestic
+42,Hongqiao International Airport,Shanghai,China (People's Republic of China),SHA," 39,090,865 ",3.0,31.197778000000003,121.33333300000001,Domestic
+43,Orlando International Airport,Orlando FL,USA,MCO," 38,727,749 ",8.4,28.431389000000003,-81.324444,Domestic
+44,Taiwan Taoyuan International Airport,Taipei,Chinese Taipei,TPE," 38,473,333 ",7.5,25.081944,121.22388899999999,International
+45,"Aeropuerto Internacional de la Ciudad de México ""Lic Benito Juárez""",Mexico City,Mexico,MEX," 38,433,288 ",12.2,19.438610999999998,-99.066389,Domestic
+46,Kunming International Airport,Kunming,China (People's Republic of China),KMG," 37,523,220 ",16.0,25.0,102.75,Domestic
+47,Newark Liberty International Airport,Newark NJ,USA,EWR," 37,494,704 ",5.3,40.693056,-74.168611,Domestic
+48,Narita International Airport,Tokyo,Japan,NRT," 37,268,307 ",4.9,35.763889,140.39111100000002,International
+49,Ninoy Aquino International Airport,Manila,Philippines,MNL," 36,583,459 ",7.3,14.511389000000001,121.015833,Domestic
+50,Minneapolis/St Paul International Airport,Minneapolis MN,USA,MSP," 36,582,854 ",4.1,44.884167,-93.214722,Domestic

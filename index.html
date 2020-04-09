@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <title>COVID-19 Dashboard</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+  <title>COVID-19 Analysis</title>
+  <link rel="stylesheet" href="static/css/styles.css" />
 
-  <!-- Font Awesome -->
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/59aae0ebe9.css">
   <link href="static/css/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
 </head>
 
 <body>
@@ -24,18 +29,19 @@
       <!-- Navigation -->
       <nav>
           <ul>
-              <li class="active">Summary</li>
-              <li><a href="/">Health</a></li>
-              <li><a href="/">International Travel</a></li>
-              <li><a href="/map.html">World Map</a></li>
+              <li class="active">Global Cases</li>
+              <li><a href="/health.html">Population &amp; Health</a></li>
+              <li><a href="/map.html">Travel</a></li>
+              <li><a href="/sources.html">Data Sources</a></li>
           </ul>
       </nav>
     </header>
 
     <div class="row main-content">
+
       <form class="row">
           <select name="year" id="year" class="country">
-            <option value="">Global</option>
+            <option value="">Global Cases</option>
             <option value="">United States</option>
             <option value="">China</option>
             <option value="">Italy</option>
@@ -44,9 +50,9 @@
       </form>
 
       <div class="row stats">
-        <div class="stat tested">Tested<h4>60,000</h4></div>
-        <div class="stat confirmed">Confirmed<h4>20,000</h4></div>
-        <div class="stat fatalities">Fatalities<h4>3,500</h4></div>
+        <div class="stat"><h4>Tested</h4><div class="tested">60,000</div></div>
+        <div class="stat"><h4>Confirmed</h4><div class="confirmed">20,000</div></div>
+        <div class="stat"><h4>Fatalities</h4><div class="fatalities">3,500</div></div>
       </div>
 
       <div class="row charts">
@@ -88,4 +94,5 @@
 
   </div>
 </body>
+<script src="static/js/index.js"></script>
 </html>
