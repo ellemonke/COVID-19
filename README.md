@@ -1,6 +1,19 @@
 # COVID-19
-This analysis is part of the [COVID19 Global Forecasting Coding Competition](https://www.kaggle.com/c/covid19-global-forecasting-week-2). See also the [COVID-19 Open Research Dataset (CORD-19)](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
+**Work In Progress**<br>
+This analysis is part of the [COVID-19 Open Research Challenge](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
 
-**Work In Progress**
+## Tech Stack
+- Python (Jupyter Notebooks, Pandas, NumPy, SciPy, Matplotlib)
+- HTML, CSS (Bootstrap)
+- JavaScript (Leaflet, D3)
+- Various Web APIs
 
-Week 2 submissions due Monday, March 30, 2020.
+## Machine Learning Models
+- SIR Model
+- Multilinear Regression Model
+
+## Future Development
+- Risk Assessment for Africa and India 
+- Reduce dependencies:
+    1. Convert entire site to Node environment and publish.
+    2. Replace need for [CSV to GeoJSON Converter](https://www.convertcsv.com/csv-to-geojson.htm) with Python or JavaScript.
