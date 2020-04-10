@@ -72,7 +72,7 @@ function createMap(airports, confirmed) {
   };
 
   var overlayMaps = {
-    "Int'l Airports": airports,
+    "Airports": airports,
     "COVID-19 Cases": confirmed,
   };
 

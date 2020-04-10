@@ -7,16 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
   <title>COVID-19 Analysis</title>
-  <link rel="stylesheet" href="static/css/styles.css" />
 
-  <!-- Vendor CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/59aae0ebe9.css">
-  <link href="static/css/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- D3 -->
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap">
+  <link rel="stylesheet" href="static/css/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="static/css/styles.css" />
 
 </head>
 
@@ -45,19 +41,18 @@
             <option value="US">United States</option>
             <option value="Italy">Italy</option>
             <option value="Spain">Spain</option>
-            <option value="Germany">Germany</option>
-            <option value="China">China</option>
             <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="China">China</option>
             <option value="Iran">Iran</option>
-            <option value="India">India</option>
-            <option value="South Africa">South Africa</option>
           </select>
       </form>
 
       <div class="row stats">
-        <div class="stat"><h4>Tested</h4><div id="tested">60,000</div></div>
-        <div class="stat"><h4>Confirmed</h4><div id="confirmed">20,000</div></div>
-        <div class="stat"><h4>Fatalities</h4><div id="fatalities">3,500</div></div>
+        <div class="stat"><h4>Tested</h4><div id="tested"></div></div>
+        <div class="stat"><h4>Confirmed</h4><div id="confirmed"></div></div>
+        <div class="stat"><h4>Fatalities</h4><div id="fatalities"></div></div>
       </div>
 
       <div class="row charts">
@@ -98,7 +93,11 @@
     </footer>
 
   </div>
+
+  <!-- JS -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="static/resources/cases/confirmed.js"></script>
+  <script src="static/js/index.js"></script>
+
 </body>
-<script src="static/resources/cases/confirmed.js"></script>
-<script src="static/js/index.js"></script>
 </html>
