@@ -135,19 +135,19 @@ select.country {
     padding: 0;
 }
 
-.tested {
+#tested {
     color: #38BB9B;
     font-size: 1.5em;
     margin-top: 7px;
 }
 
-.confirmed {
+#confirmed {
     color: #FE5722;
     font-size: 1.5em;
     margin-top: 7px;
 }
 
-.fatalities {
+#fatalities {
     color: #337ab7;
     font-size: 1.5em;
     margin-top: 7px;

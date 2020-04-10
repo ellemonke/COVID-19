@@ -40,26 +40,31 @@
     <div class="row main-content">
 
       <form class="row">
-          <select name="year" id="year" class="country">
-            <option value="">Global Cases</option>
-            <option value="">United States</option>
-            <option value="">China</option>
-            <option value="">Italy</option>
-            <option value="">Iran</option>
+          <select name="country" id="country" class="country">
+            <option value="Global">Global Cases</option>
+            <option value="US">United States</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Germany">Germany</option>
+            <option value="China">China</option>
+            <option value="France">France</option>
+            <option value="Iran">Iran</option>
+            <option value="India">India</option>
+            <option value="South Africa">South Africa</option>
           </select>
       </form>
 
       <div class="row stats">
-        <div class="stat"><h4>Tested</h4><div class="tested">60,000</div></div>
-        <div class="stat"><h4>Confirmed</h4><div class="confirmed">20,000</div></div>
-        <div class="stat"><h4>Fatalities</h4><div class="fatalities">3,500</div></div>
+        <div class="stat"><h4>Tested</h4><div id="tested">60,000</div></div>
+        <div class="stat"><h4>Confirmed</h4><div id="confirmed">20,000</div></div>
+        <div class="stat"><h4>Fatalities</h4><div id="fatalities">3,500</div></div>
       </div>
 
       <div class="row charts">
         <div class="col-sm-12 col-md-6">
           <div class="chart">
             <h4>Confirmed Cases</h4>
-            <img src="static/images/model_sir.png" />
+            <img src="static/images/model_sir.png" class="lineChart" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
           </div>
         </div>
@@ -67,7 +72,7 @@
         <div class="col-sm-12 col-md-6">
           <div class="chart">
             <h4>Confirmed v. Fatalities</h4>
-            <img src="static/images/model_sir.png" />
+            <img src="static/images/model_sir.png" class="barChart" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
           </div>
         </div>
@@ -94,5 +99,6 @@
 
   </div>
 </body>
+<script src="static/resources/cases/confirmed.js"></script>
 <script src="static/js/index.js"></script>
 </html>
