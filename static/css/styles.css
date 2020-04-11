@@ -135,14 +135,14 @@ select.country {
     padding: 0;
 }
 
-#tested {
-    color: #38BB9B;
+#confirmed {
+    color: #FE5722;
     font-size: 1.5em;
     margin-top: 7px;
 }
 
-#confirmed {
-    color: #FE5722;
+#recovered {
+    color: #38BB9B;
     font-size: 1.5em;
     margin-top: 7px;
 }

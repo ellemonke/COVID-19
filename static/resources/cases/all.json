@@ -1,0 +1,1112 @@
+var data = [
+    {
+        "Country_Region": "Afghanistan",
+        "Confirmed": 521,
+        "Recovered": 32,
+        "Fatalities": 15
+    },
+    {
+        "Country_Region": "Albania",
+        "Confirmed": 416,
+        "Recovered": 182,
+        "Fatalities": 23
+    },
+    {
+        "Country_Region": "Algeria",
+        "Confirmed": 1761,
+        "Recovered": 405,
+        "Fatalities": 256
+    },
+    {
+        "Country_Region": "Andorra",
+        "Confirmed": 601,
+        "Recovered": 71,
+        "Fatalities": 26
+    },
+    {
+        "Country_Region": "Angola",
+        "Confirmed": 19,
+        "Recovered": 2,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Antigua and Barbuda",
+        "Confirmed": 19,
+        "Recovered": null,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Argentina",
+        "Confirmed": 1975,
+        "Recovered": 375,
+        "Fatalities": 82
+    },
+    {
+        "Country_Region": "Armenia",
+        "Confirmed": 937,
+        "Recovered": 149,
+        "Fatalities": 12
+    },
+    {
+        "Country_Region": "Australia",
+        "Confirmed": 6215,
+        "Recovered": 1793,
+        "Fatalities": 54
+    },
+    {
+        "Country_Region": "Austria",
+        "Confirmed": 13555,
+        "Recovered": 6064,
+        "Fatalities": 319
+    },
+    {
+        "Country_Region": "Azerbaijan",
+        "Confirmed": 991,
+        "Recovered": 159,
+        "Fatalities": 10
+    },
+    {
+        "Country_Region": "Bahamas",
+        "Confirmed": 42,
+        "Recovered": 5,
+        "Fatalities": 8
+    },
+    {
+        "Country_Region": "Bahrain",
+        "Confirmed": 925,
+        "Recovered": 539,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Bangladesh",
+        "Confirmed": 424,
+        "Recovered": 33,
+        "Fatalities": 27
+    },
+    {
+        "Country_Region": "Barbados",
+        "Confirmed": 67,
+        "Recovered": 11,
+        "Fatalities": 4
+    },
+    {
+        "Country_Region": "Belarus",
+        "Confirmed": 1981,
+        "Recovered": 169,
+        "Fatalities": 19
+    },
+    {
+        "Country_Region": "Belgium",
+        "Confirmed": 26667,
+        "Recovered": 5568,
+        "Fatalities": 3019
+    },
+    {
+        "Country_Region": "Belize",
+        "Confirmed": 10,
+        "Recovered": null,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Benin",
+        "Confirmed": 35,
+        "Recovered": 5,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Bhutan",
+        "Confirmed": 5,
+        "Recovered": 2,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Bolivia",
+        "Confirmed": 268,
+        "Recovered": 2,
+        "Fatalities": 19
+    },
+    {
+        "Country_Region": "Bosnia and Herzegovina",
+        "Confirmed": 901,
+        "Recovered": 129,
+        "Fatalities": 36
+    },
+    {
+        "Country_Region": "Botswana",
+        "Confirmed": 13,
+        "Recovered": null,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Brazil",
+        "Confirmed": 19638,
+        "Recovered": 173,
+        "Fatalities": 1057
+    },
+    {
+        "Country_Region": "Brunei",
+        "Confirmed": 136,
+        "Recovered": 99,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Bulgaria",
+        "Confirmed": 635,
+        "Recovered": 54,
+        "Fatalities": 25
+    },
+    {
+        "Country_Region": "Burkina Faso",
+        "Confirmed": 443,
+        "Recovered": 146,
+        "Fatalities": 24
+    },
+    {
+        "Country_Region": "Burma",
+        "Confirmed": 27,
+        "Recovered": 2,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Burundi",
+        "Confirmed": 3,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Cabo Verde",
+        "Confirmed": 7,
+        "Recovered": 1,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Cambodia",
+        "Confirmed": 119,
+        "Recovered": 72,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Cameroon",
+        "Confirmed": 820,
+        "Recovered": 98,
+        "Fatalities": 12
+    },
+    {
+        "Country_Region": "Canada",
+        "Confirmed": 22059,
+        "Recovered": 5855,
+        "Fatalities": 557
+    },
+    {
+        "Country_Region": "Central African Republic",
+        "Confirmed": 8,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Chad",
+        "Confirmed": 11,
+        "Recovered": 2,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Chile",
+        "Confirmed": 6501,
+        "Recovered": 1571,
+        "Fatalities": 65
+    },
+    {
+        "Country_Region": "China",
+        "Confirmed": 82941,
+        "Recovered": 77791,
+        "Fatalities": 3340
+    },
+    {
+        "Country_Region": "Colombia",
+        "Confirmed": 2473,
+        "Recovered": 197,
+        "Fatalities": 80
+    },
+    {
+        "Country_Region": "Congo",
+        "Confirmed": 60,
+        "Recovered": 5,
+        "Fatalities": 5
+    },
+    {
+        "Country_Region": "Democratic Republic of Congo",
+        "Confirmed": 215,
+        "Recovered": 13,
+        "Fatalities": 20
+    },
+    {
+        "Country_Region": "Costa Rica",
+        "Confirmed": 558,
+        "Recovered": 42,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Cote d'Ivoire",
+        "Confirmed": 444,
+        "Recovered": 52,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Croatia",
+        "Confirmed": 1495,
+        "Recovered": 231,
+        "Fatalities": 21
+    },
+    {
+        "Country_Region": "Cuba",
+        "Confirmed": 564,
+        "Recovered": 51,
+        "Fatalities": 15
+    },
+    {
+        "Country_Region": "Cyprus",
+        "Confirmed": 595,
+        "Recovered": 58,
+        "Fatalities": 10
+    },
+    {
+        "Country_Region": "Czech Republic",
+        "Confirmed": 5732,
+        "Recovered": 346,
+        "Fatalities": 119
+    },
+    {
+        "Country_Region": "Denmark",
+        "Confirmed": 6014,
+        "Recovered": 1929,
+        "Fatalities": 247
+    },
+    {
+        "Country_Region": "Diamond Princess",
+        "Confirmed": 712,
+        "Recovered": 619,
+        "Fatalities": 11
+    },
+    {
+        "Country_Region": "Djibouti",
+        "Confirmed": 150,
+        "Recovered": 36,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Dominica",
+        "Confirmed": 16,
+        "Recovered": 5,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Dominican Republic",
+        "Confirmed": 2620,
+        "Recovered": 98,
+        "Fatalities": 126
+    },
+    {
+        "Country_Region": "Ecuador",
+        "Confirmed": 7161,
+        "Recovered": 368,
+        "Fatalities": 297
+    },
+    {
+        "Country_Region": "Egypt",
+        "Confirmed": 1794,
+        "Recovered": 384,
+        "Fatalities": 135
+    },
+    {
+        "Country_Region": "El Salvador",
+        "Confirmed": 117,
+        "Recovered": 15,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Equatorial Guinea",
+        "Confirmed": 18,
+        "Recovered": 3,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Eritrea",
+        "Confirmed": 34,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Estonia",
+        "Confirmed": 1258,
+        "Recovered": 93,
+        "Fatalities": 24
+    },
+    {
+        "Country_Region": "Eswatini",
+        "Confirmed": 12,
+        "Recovered": 7,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Ethiopia",
+        "Confirmed": 65,
+        "Recovered": 4,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Fiji",
+        "Confirmed": 16,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Finland",
+        "Confirmed": 2769,
+        "Recovered": 300,
+        "Fatalities": 48
+    },
+    {
+        "Country_Region": "France",
+        "Confirmed": 125931,
+        "Recovered": 25195,
+        "Fatalities": 13215
+    },
+    {
+        "Country_Region": "Gabon",
+        "Confirmed": 44,
+        "Recovered": 1,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Gambia",
+        "Confirmed": 4,
+        "Recovered": 2,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Georgia",
+        "Confirmed": 234,
+        "Recovered": 54,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Germany",
+        "Confirmed": 122171,
+        "Recovered": 53913,
+        "Fatalities": 2767
+    },
+    {
+        "Country_Region": "Ghana",
+        "Confirmed": 378,
+        "Recovered": 4,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Greece",
+        "Confirmed": 2011,
+        "Recovered": 269,
+        "Fatalities": 92
+    },
+    {
+        "Country_Region": "Grenada",
+        "Confirmed": 14,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Guatemala",
+        "Confirmed": 126,
+        "Recovered": 17,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Guinea",
+        "Confirmed": 212,
+        "Recovered": 15,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Guinea-Bissau",
+        "Confirmed": 36,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Guyana",
+        "Confirmed": 37,
+        "Recovered": 8,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Haiti",
+        "Confirmed": 31,
+        "Recovered": 1,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Holy See",
+        "Confirmed": 8,
+        "Recovered": 2,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Honduras",
+        "Confirmed": 382,
+        "Recovered": 7,
+        "Fatalities": 23
+    },
+    {
+        "Country_Region": "Hungary",
+        "Confirmed": 1190,
+        "Recovered": 112,
+        "Fatalities": 77
+    },
+    {
+        "Country_Region": "Iceland",
+        "Confirmed": 1675,
+        "Recovered": 751,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "India",
+        "Confirmed": 7598,
+        "Recovered": 774,
+        "Fatalities": 246
+    },
+    {
+        "Country_Region": "Indonesia",
+        "Confirmed": 3512,
+        "Recovered": 282,
+        "Fatalities": 306
+    },
+    {
+        "Country_Region": "Iran",
+        "Confirmed": 68192,
+        "Recovered": 35465,
+        "Fatalities": 4232
+    },
+    {
+        "Country_Region": "Iraq",
+        "Confirmed": 1279,
+        "Recovered": 550,
+        "Fatalities": 70
+    },
+    {
+        "Country_Region": "Ireland",
+        "Confirmed": 8089,
+        "Recovered": 25,
+        "Fatalities": 287
+    },
+    {
+        "Country_Region": "Israel",
+        "Confirmed": 10408,
+        "Recovered": 1183,
+        "Fatalities": 95
+    },
+    {
+        "Country_Region": "Italy",
+        "Confirmed": 147577,
+        "Recovered": 30455,
+        "Fatalities": 18849
+    },
+    {
+        "Country_Region": "Jamaica",
+        "Confirmed": 63,
+        "Recovered": 13,
+        "Fatalities": 4
+    },
+    {
+        "Country_Region": "Japan",
+        "Confirmed": 5530,
+        "Recovered": 685,
+        "Fatalities": 99
+    },
+    {
+        "Country_Region": "Jordan",
+        "Confirmed": 372,
+        "Recovered": 170,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Kazakhstan",
+        "Confirmed": 812,
+        "Recovered": 64,
+        "Fatalities": 10
+    },
+    {
+        "Country_Region": "Kenya",
+        "Confirmed": 189,
+        "Recovered": 22,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "South Korea",
+        "Confirmed": 10450,
+        "Recovered": 7117,
+        "Fatalities": 208
+    },
+    {
+        "Country_Region": "Kosovo",
+        "Confirmed": 250,
+        "Recovered": 52,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Kuwait",
+        "Confirmed": 993,
+        "Recovered": 123,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Kyrgyzstan",
+        "Confirmed": 298,
+        "Recovered": 35,
+        "Fatalities": 5
+    },
+    {
+        "Country_Region": "Laos",
+        "Confirmed": 16,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Latvia",
+        "Confirmed": 612,
+        "Recovered": 16,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Lebanon",
+        "Confirmed": 609,
+        "Recovered": 76,
+        "Fatalities": 20
+    },
+    {
+        "Country_Region": "Liberia",
+        "Confirmed": 37,
+        "Recovered": 3,
+        "Fatalities": 5
+    },
+    {
+        "Country_Region": "Libya",
+        "Confirmed": 24,
+        "Recovered": 8,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Liechtenstein",
+        "Confirmed": 79,
+        "Recovered": 55,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Lithuania",
+        "Confirmed": 999,
+        "Recovered": 54,
+        "Fatalities": 22
+    },
+    {
+        "Country_Region": "Luxembourg",
+        "Confirmed": 3223,
+        "Recovered": 500,
+        "Fatalities": 54
+    },
+    {
+        "Country_Region": "MS Zaandam",
+        "Confirmed": 9,
+        "Recovered": null,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Madagascar",
+        "Confirmed": 93,
+        "Recovered": 11,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Malawi",
+        "Confirmed": 9,
+        "Recovered": null,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Malaysia",
+        "Confirmed": 4346,
+        "Recovered": 1830,
+        "Fatalities": 70
+    },
+    {
+        "Country_Region": "Maldives",
+        "Confirmed": 19,
+        "Recovered": 13,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Mali",
+        "Confirmed": 87,
+        "Recovered": 22,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Malta",
+        "Confirmed": 350,
+        "Recovered": 16,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Mauritania",
+        "Confirmed": 7,
+        "Recovered": 2,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Mauritius",
+        "Confirmed": 318,
+        "Recovered": 23,
+        "Fatalities": 9
+    },
+    {
+        "Country_Region": "Mexico",
+        "Confirmed": 3441,
+        "Recovered": 633,
+        "Fatalities": 194
+    },
+    {
+        "Country_Region": "Moldova",
+        "Confirmed": 1438,
+        "Recovered": 56,
+        "Fatalities": 29
+    },
+    {
+        "Country_Region": "Monaco",
+        "Confirmed": 90,
+        "Recovered": 5,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Mongolia",
+        "Confirmed": 16,
+        "Recovered": 4,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Montenegro",
+        "Confirmed": 255,
+        "Recovered": 4,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Morocco",
+        "Confirmed": 1448,
+        "Recovered": 122,
+        "Fatalities": 107
+    },
+    {
+        "Country_Region": "Mozambique",
+        "Confirmed": 20,
+        "Recovered": 2,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Namibia",
+        "Confirmed": 16,
+        "Recovered": 3,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Nepal",
+        "Confirmed": 9,
+        "Recovered": 1,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Netherlands",
+        "Confirmed": 23249,
+        "Recovered": 287,
+        "Fatalities": 2520
+    },
+    {
+        "Country_Region": "New Zealand",
+        "Confirmed": 1283,
+        "Recovered": 373,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Nicaragua",
+        "Confirmed": 7,
+        "Recovered": null,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Niger",
+        "Confirmed": 438,
+        "Recovered": 41,
+        "Fatalities": 11
+    },
+    {
+        "Country_Region": "Nigeria",
+        "Confirmed": 305,
+        "Recovered": 58,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "North Macedonia",
+        "Confirmed": 711,
+        "Recovered": 41,
+        "Fatalities": 32
+    },
+    {
+        "Country_Region": "Norway",
+        "Confirmed": 6314,
+        "Recovered": 32,
+        "Fatalities": 113
+    },
+    {
+        "Country_Region": "Oman",
+        "Confirmed": 484,
+        "Recovered": 109,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Pakistan",
+        "Confirmed": 4695,
+        "Recovered": 727,
+        "Fatalities": 66
+    },
+    {
+        "Country_Region": "Panama",
+        "Confirmed": 2752,
+        "Recovered": 16,
+        "Fatalities": 66
+    },
+    {
+        "Country_Region": "Papua New Guinea",
+        "Confirmed": 2,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Paraguay",
+        "Confirmed": 129,
+        "Recovered": 18,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Peru",
+        "Confirmed": 5897,
+        "Recovered": 1569,
+        "Fatalities": 169
+    },
+    {
+        "Country_Region": "Philippines",
+        "Confirmed": 4195,
+        "Recovered": 140,
+        "Fatalities": 221
+    },
+    {
+        "Country_Region": "Poland",
+        "Confirmed": 5955,
+        "Recovered": 318,
+        "Fatalities": 181
+    },
+    {
+        "Country_Region": "Portugal",
+        "Confirmed": 15472,
+        "Recovered": 233,
+        "Fatalities": 435
+    },
+    {
+        "Country_Region": "Qatar",
+        "Confirmed": 2512,
+        "Recovered": 227,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Romania",
+        "Confirmed": 5467,
+        "Recovered": 729,
+        "Fatalities": 270
+    },
+    {
+        "Country_Region": "Russia",
+        "Confirmed": 11917,
+        "Recovered": 795,
+        "Fatalities": 94
+    },
+    {
+        "Country_Region": "Rwanda",
+        "Confirmed": 118,
+        "Recovered": 7,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Saint Kitts and Nevis",
+        "Confirmed": 12,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Saint Lucia",
+        "Confirmed": 15,
+        "Recovered": 1,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Saint Vincent and the Grenadines",
+        "Confirmed": 12,
+        "Recovered": 1,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "San Marino",
+        "Confirmed": 344,
+        "Recovered": 50,
+        "Fatalities": 34
+    },
+    {
+        "Country_Region": "Sao Tome and Principe",
+        "Confirmed": 4,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Saudi Arabia",
+        "Confirmed": 3651,
+        "Recovered": 685,
+        "Fatalities": 47
+    },
+    {
+        "Country_Region": "Senegal",
+        "Confirmed": 265,
+        "Recovered": 137,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Serbia",
+        "Confirmed": 3105,
+        "Recovered": 15,
+        "Fatalities": 71
+    },
+    {
+        "Country_Region": "Seychelles",
+        "Confirmed": 11,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Sierra Leone",
+        "Confirmed": 8,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Singapore",
+        "Confirmed": 2108,
+        "Recovered": 492,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Slovakia",
+        "Confirmed": 715,
+        "Recovered": 23,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Slovenia",
+        "Confirmed": 1160,
+        "Recovered": 137,
+        "Fatalities": 45
+    },
+    {
+        "Country_Region": "Somalia",
+        "Confirmed": 21,
+        "Recovered": 1,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "South Africa",
+        "Confirmed": 2003,
+        "Recovered": 410,
+        "Fatalities": 24
+    },
+    {
+        "Country_Region": "South Sudan",
+        "Confirmed": 4,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Spain",
+        "Confirmed": 158273,
+        "Recovered": 55668,
+        "Fatalities": 16081
+    },
+    {
+        "Country_Region": "Sri Lanka",
+        "Confirmed": 190,
+        "Recovered": 54,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Sudan",
+        "Confirmed": 17,
+        "Recovered": 2,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Suriname",
+        "Confirmed": 10,
+        "Recovered": 4,
+        "Fatalities": 1
+    },
+    {
+        "Country_Region": "Sweden",
+        "Confirmed": 9685,
+        "Recovered": 381,
+        "Fatalities": 870
+    },
+    {
+        "Country_Region": "Switzerland",
+        "Confirmed": 24551,
+        "Recovered": 11100,
+        "Fatalities": 1002
+    },
+    {
+        "Country_Region": "Syria",
+        "Confirmed": 19,
+        "Recovered": 4,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Taiwan",
+        "Confirmed": 382,
+        "Recovered": 91,
+        "Fatalities": 6
+    },
+    {
+        "Country_Region": "Tanzania",
+        "Confirmed": 32,
+        "Recovered": 5,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Thailand",
+        "Confirmed": 2473,
+        "Recovered": 1013,
+        "Fatalities": 33
+    },
+    {
+        "Country_Region": "Timor-Leste",
+        "Confirmed": 2,
+        "Recovered": 1,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Togo",
+        "Confirmed": 76,
+        "Recovered": 25,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Trinidad and Tobago",
+        "Confirmed": 109,
+        "Recovered": 1,
+        "Fatalities": 8
+    },
+    {
+        "Country_Region": "Tunisia",
+        "Confirmed": 671,
+        "Recovered": 25,
+        "Fatalities": 25
+    },
+    {
+        "Country_Region": "Turkey",
+        "Confirmed": 47029,
+        "Recovered": 2423,
+        "Fatalities": 1006
+    },
+    {
+        "Country_Region": "United States",
+        "Confirmed": 496535,
+        "Recovered": 28790,
+        "Fatalities": 18586
+    },
+    {
+        "Country_Region": "Uganda",
+        "Confirmed": 53,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Ukraine",
+        "Confirmed": 2203,
+        "Recovered": 61,
+        "Fatalities": 69
+    },
+    {
+        "Country_Region": "United Arab Emirates",
+        "Confirmed": 3360,
+        "Recovered": 418,
+        "Fatalities": 16
+    },
+    {
+        "Country_Region": "United Kingdom",
+        "Confirmed": 74605,
+        "Recovered": 588,
+        "Fatalities": 8974
+    },
+    {
+        "Country_Region": "Uruguay",
+        "Confirmed": 473,
+        "Recovered": 206,
+        "Fatalities": 7
+    },
+    {
+        "Country_Region": "Uzbekistan",
+        "Confirmed": 624,
+        "Recovered": 42,
+        "Fatalities": 3
+    },
+    {
+        "Country_Region": "Venezuela",
+        "Confirmed": 171,
+        "Recovered": 84,
+        "Fatalities": 9
+    },
+    {
+        "Country_Region": "Vietnam",
+        "Confirmed": 257,
+        "Recovered": 144,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "West Bank and Gaza",
+        "Confirmed": 267,
+        "Recovered": 45,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Western Sahara",
+        "Confirmed": 4,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Yemen",
+        "Confirmed": 1,
+        "Recovered": null,
+        "Fatalities": null
+    },
+    {
+        "Country_Region": "Zambia",
+        "Confirmed": 40,
+        "Recovered": 25,
+        "Fatalities": 2
+    },
+    {
+        "Country_Region": "Zimbabwe",
+        "Confirmed": 13,
+        "Recovered": null,
+        "Fatalities": 3
+    }
+]
