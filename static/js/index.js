@@ -11,7 +11,7 @@ var barChart = d3.select(".barChart");
 d3.select(window).on("load", onLoad);
 
 function onLoad() {
-    var selection = country.property("value", "United States");
+    var selection = country.property("value", "Global");
     changeOutput();
 };
 

@@ -19,7 +19,7 @@ BFA,Burkina Faso,Sub-Saharan Africa
 BGD,Bangladesh,South Asia
 BGR,Bulgaria,Europe & Central Asia
 BHR,Bahrain,Middle East & North Africa
-BHS,"Bahamas, The",Latin America & Caribbean 
+BHS,Bahamas,Latin America & Caribbean 
 BIH,Bosnia and Herzegovina,Europe & Central Asia
 BLR,Belarus,Europe & Central Asia
 BLZ,Belize,Latin America & Caribbean 
@@ -27,7 +27,7 @@ BMU,Bermuda,North America
 BOL,Bolivia,Latin America & Caribbean 
 BRA,Brazil,Latin America & Caribbean 
 BRB,Barbados,Latin America & Caribbean 
-BRN,Brunei Darussalam,East Asia & Pacific
+BRN,Brunei,East Asia & Pacific
 BTN,Bhutan,South Asia
 BWA,Botswana,Sub-Saharan Africa 
 CAF,Central African Republic,Sub-Saharan Africa 
@@ -38,11 +38,11 @@ CHL,Chile,Latin America & Caribbean
 CHN,China,East Asia & Pacific
 CIV,Cote d'Ivoire,Sub-Saharan Africa 
 CMR,Cameroon,Sub-Saharan Africa 
-COD,"Congo, Dem. Rep.",Sub-Saharan Africa 
-COG,"Congo, Rep.",Sub-Saharan Africa 
+COD,Democratic Republic of Congo,Sub-Saharan Africa 
+COG,Congo,Sub-Saharan Africa 
 COL,Colombia,Latin America & Caribbean 
 COM,Comoros,Sub-Saharan Africa 
-CPV,Cabo Verde,Sub-Saharan Africa 
+CPV,Cape Verde,Sub-Saharan Africa 
 CRI,Costa Rica,Latin America & Caribbean 
 CUB,Cuba,Latin America & Caribbean 
 CUW,Curacao,Latin America & Caribbean 
@@ -56,7 +56,7 @@ DNK,Denmark,Europe & Central Asia
 DOM,Dominican Republic,Latin America & Caribbean 
 DZA,Algeria,Middle East & North Africa
 ECU,Ecuador,Latin America & Caribbean 
-EGY,"Egypt, Arab Rep.",Middle East & North Africa
+EGY,Egypt,Middle East & North Africa
 ERI,Eritrea,Sub-Saharan Africa 
 ESP,Spain,Europe & Central Asia
 EST,Estonia,Europe & Central Asia
@@ -65,7 +65,7 @@ FIN,Finland,Europe & Central Asia
 FJI,Fiji,East Asia & Pacific
 FRA,France,Europe & Central Asia
 FRO,Faroe Islands,Europe & Central Asia
-FSM,"Micronesia, Fed. Sts.",East Asia & Pacific
+FSM,Micronesia (country),East Asia & Pacific
 GAB,Gabon,Sub-Saharan Africa 
 GBR,United Kingdom,Europe & Central Asia
 GEO,Georgia,Europe & Central Asia
@@ -90,7 +90,7 @@ IDN,Indonesia,East Asia & Pacific
 IMN,Isle of Man,Europe & Central Asia
 IND,India,South Asia
 IRL,Ireland,Europe & Central Asia
-IRN,"Iran, Islamic Rep.",Middle East & North Africa
+IRN,Iran,Middle East & North Africa
 IRQ,Iraq,Middle East & North Africa
 ISL,Iceland,Europe & Central Asia
 ISR,Israel,Middle East & North Africa
@@ -100,17 +100,17 @@ JOR,Jordan,Middle East & North Africa
 JPN,Japan,East Asia & Pacific
 KAZ,Kazakhstan,Europe & Central Asia
 KEN,Kenya,Sub-Saharan Africa 
-KGZ,Kyrgyz Republic,Europe & Central Asia
+KGZ,Kyrgyzstan,Europe & Central Asia
 KHM,Cambodia,East Asia & Pacific
 KIR,Kiribati,East Asia & Pacific
 KNA,St. Kitts and Nevis,Latin America & Caribbean 
-KOR,"Korea, Rep.",East Asia & Pacific
+KOR,South Korea,East Asia & Pacific
 KWT,Kuwait,Middle East & North Africa
-LAO,Lao PDR,East Asia & Pacific
+LAO,Laos,East Asia & Pacific
 LBN,Lebanon,Middle East & North Africa
 LBR,Liberia,Sub-Saharan Africa 
 LBY,Libya,Middle East & North Africa
-LCA,St. Lucia,Latin America & Caribbean 
+LCA,Saint Lucia,Latin America & Caribbean 
 LIE,Liechtenstein,Europe & Central Asia
 LKA,Sri Lanka,South Asia
 LSO,Lesotho,Sub-Saharan Africa 
@@ -126,7 +126,7 @@ MDG,Madagascar,Sub-Saharan Africa
 MDV,Maldives,South Asia
 MEX,Mexico,Latin America & Caribbean 
 MHL,Marshall Islands,East Asia & Pacific
-MKD,North Macedonia,Europe & Central Asia
+MKD,Macedonia,Europe & Central Asia
 MLI,Mali,Sub-Saharan Africa 
 MLT,Malta,Middle East & North Africa
 MMR,Myanmar,East Asia & Pacific
@@ -157,14 +157,14 @@ PLW,Palau,East Asia & Pacific
 PNG,Papua New Guinea,East Asia & Pacific
 POL,Poland,Europe & Central Asia
 PRI,Puerto Rico,Latin America & Caribbean 
-PRK,"Korea, Dem. People’s Rep.",East Asia & Pacific
+PRK,North Korea,East Asia & Pacific
 PRT,Portugal,Europe & Central Asia
 PRY,Paraguay,Latin America & Caribbean 
 PSE,West Bank and Gaza,Middle East & North Africa
 PYF,French Polynesia,East Asia & Pacific
 QAT,Qatar,Middle East & North Africa
 ROU,Romania,Europe & Central Asia
-RUS,Russian Federation,Europe & Central Asia
+RUS,Russia,Europe & Central Asia
 RWA,Rwanda,Sub-Saharan Africa 
 SAU,Saudi Arabia,Middle East & North Africa
 SDN,Sudan,Sub-Saharan Africa 
@@ -179,13 +179,13 @@ SRB,Serbia,Europe & Central Asia
 SSD,South Sudan,Sub-Saharan Africa 
 STP,Sao Tome and Principe,Sub-Saharan Africa 
 SUR,Suriname,Latin America & Caribbean 
-SVK,Slovak Republic,Europe & Central Asia
+SVK,Slovakia,Europe & Central Asia
 SVN,Slovenia,Europe & Central Asia
 SWE,Sweden,Europe & Central Asia
 SWZ,Eswatini,Sub-Saharan Africa 
 SXM,Sint Maarten (Dutch part),Latin America & Caribbean 
 SYC,Seychelles,Sub-Saharan Africa 
-SYR,Syrian Arab Republic,Middle East & North Africa
+SYR,Syria,Middle East & North Africa
 TCA,Turks and Caicos Islands,Latin America & Caribbean 
 TCD,Chad,Sub-Saharan Africa 
 TGO,Togo,Sub-Saharan Africa 
@@ -198,22 +198,22 @@ TTO,Trinidad and Tobago,Latin America & Caribbean
 TUN,Tunisia,Middle East & North Africa
 TUR,Turkey,Europe & Central Asia
 TUV,Tuvalu,East Asia & Pacific
-TWN,"Taiwan, China",East Asia & Pacific
+TWN,Taiwan,East Asia & Pacific
 TZA,Tanzania,Sub-Saharan Africa 
 UGA,Uganda,Sub-Saharan Africa 
 UKR,Ukraine,Europe & Central Asia
 URY,Uruguay,Latin America & Caribbean 
 USA,United States,North America
 UZB,Uzbekistan,Europe & Central Asia
-VCT,St. Vincent and the Grenadines,Latin America & Caribbean 
-VEN,"Venezuela, RB",Latin America & Caribbean 
+VCT,Saint Vincent and the Grenadines,Latin America & Caribbean 
+VEN,Venezuela,Latin America & Caribbean 
 VGB,British Virgin Islands,Latin America & Caribbean 
-VIR,Virgin Islands (U.S.),Latin America & Caribbean 
+VIR,United States Virgin Islands,Latin America & Caribbean 
 VNM,Vietnam,East Asia & Pacific
 VUT,Vanuatu,East Asia & Pacific
 WSM,Samoa,East Asia & Pacific
 XKX,Kosovo,Europe & Central Asia
-YEM,"Yemen, Rep.",Middle East & North Africa
+YEM,Yemen,Middle East & North Africa
 ZAF,South Africa,Sub-Saharan Africa 
 ZMB,Zambia,Sub-Saharan Africa 
 ZWE,Zimbabwe,Sub-Saharan Africa 
