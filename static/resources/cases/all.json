@@ -1108,5 +1108,11 @@ var data = [
         "Confirmed": 13,
         "Recovered": null,
         "Fatalities": 3
+    },
+    {
+        "Country_Region": "Global",
+        "Confirmed": 1691719,
+        "Recovered": 376112.0,
+        "Fatalities": 102525.0
     }
 ]
