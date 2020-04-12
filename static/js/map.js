@@ -1,6 +1,6 @@
 var airportUrl = "static/resources/airports/airports.geojson";
 var confirmedUrl = "static/resources/cases/confirmed.geojson";
-var last_day = '4/7/20';
+var last_day = '4/11/20';
 
 d3.json(airportUrl, function(airportData) {
 
