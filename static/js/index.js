@@ -35,8 +35,8 @@ function changeOutput() {
     confirmed.text(stat_c);
     recovered.text(stat_r);
     fatalities.text(stat_f);
-    lineChart.attr("src", `static/images/confirmed_${country_name}.png`);
-    barChart.attr("src", `static/images/cvf_${country_name}.png`);    
+    lineChart.attr("src", `static/images/chart1_${country_name}.png`);
+    barChart.attr("src", `static/images/chart2_${country_name}.png`);    
 
     return;
 };
