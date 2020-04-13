@@ -4,3 +4,4 @@ __pycache__
 config.js
 .env
 node_modules/
+private_key.gpg

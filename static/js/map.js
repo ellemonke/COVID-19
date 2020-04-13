@@ -64,7 +64,7 @@ function createMap(airports, confirmed) {
     attribution: `Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a> Last updated: <b>${last_day}</b>`,
     maxZoom: 18,
     id: "mapbox.light",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1IjoiZWxsZW1vbmtlIiwiYSI6ImNrNHp4dXR5NzBnYTczZHFnanBnZTNrcWkifQ.Z9GSLpER_hfFgzxhPbm2lw"
   });
 
   var baseMaps = {
