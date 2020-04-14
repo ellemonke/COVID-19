@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <title>COVID-19 Analysis</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap">
   <link rel="stylesheet" href="static/css/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="static/css/styles.css" />
 
@@ -24,51 +26,66 @@
       <h1><a href="index.html">COVID-19 Analysis</a></h1>
       <!-- Navigation -->
       <nav>
-          <ul>
-              <li class="active">Global Cases</li>
-              <li><a href="map.html">Airport Travel</a></li>
-              <li><a href="health.html">Population &amp; Health</a></li>
-              <li><a href="sources.html">Data Sources</a></li>
-          </ul>
+        <ul>
+          <li class="active">Global Cases</li>
+          <li><a href="map.html">Airport Travel</a></li>
+          <li><a href="health.html">Population &amp; Health</a></li>
+          <li><a href="sources.html">Data Sources</a></li>
+        </ul>
       </nav>
     </header>
 
     <div class="row main-content">
 
       <form class="row">
-          <select name="country" id="country" class="country">
-            <option value="Global">Global Cases</option>
-            <option value="United States">United States</option>
-            <option value="Italy">Italy</option>
-            <option value="Spain">Spain</option>
-            <option value="France">France</option>
-            <option value="Germany">Germany</option>
-            <option value="United Kingdom">United Kingdom</option>
-            <option value="China">China</option>
-            <option value="Iran">Iran</option>
-          </select>
+        <select name="country" id="country" class="country">
+          <option value="Global">Global Cases</option>
+          <option value="United States">United States</option>
+          <option value="Italy">Italy</option>
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="China">China</option>
+          <option value="Iran">Iran</option>
+        </select>
       </form>
 
       <div class="row stats">
-        <div class="stat"><h4>Confirmed</h4><div id="confirmed"></div></div>
-        <div class="stat"><h4>Recovered</h4><div id="recovered"></div></div>
-        <div class="stat"><h4>Fatalities</h4><div id="fatalities"></div></div>
+        <div class="stat">
+          <h4>Confirmed</h4>
+          <div id="confirmed"></div>
+        </div>
+        <div class="stat">
+          <h4>Recovered</h4>
+          <div id="recovered"></div>
+        </div>
+        <div class="stat">
+          <h4>Fatalities</h4>
+          <div id="fatalities"></div>
+        </div>
       </div>
 
       <div class="row charts">
         <div class="col-sm-12 col-md-6">
-          <div class="chart">
-            <!-- <h4>All Cases</h4> -->
-            <img src="static/images/chart1_global.png" class="lineChart" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
+          <div class="chart chart1">
+            <br />
+            <img src="static/images/chart1_global.png" />
+            <p class="desc_global">
+              The number of COVID-19 cases is still increasing rapidly across the globe. Many of the countries that experienced the disease early on are beginning to recover. The first case in China was confirmed January 22, 2020. Then the countries that followed did not have their first case or significant increase in cases until early March. Recovered cases started to emerge approximately two weeks later.</p>
+            <p class="desc_country">
+              As of mid-April, the proportion of recovered versus confirmed cases is about 20%-30% in Itay Spain and France; 45% in Germany; less than 1% in the U.K.; and 6% in the U.S. A wide variety of factors likely contribute to these differences such as human activity prior to social distancing, early mitigation efforts, and healthcare for COVID-19.</p>
           </div>
         </div>
 
         <div class="col-sm-12 col-md-6">
-          <div class="chart">
-            <!-- <h4>Confirmed v. Fatalities</h4> -->
-            <img src="static/images/chart2_global.png" class="barChart" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis venenatis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Aenean felis diam, dictum nec orci ac, maximus tempus lectus. Nam id neque ante. Vivamus vestibulum porttitor metus at dapibus. Vestibulum sed porttitor mi, et interdum nisl. Phasellus sit amet risus at tellus viverra vulputate.</p>    
+          <div class="chart chart2">
+            <img src="static/images/chart2_global.png" />
+            <p class="desc_global">
+              The number of infected equals confirmed cases minus recovered minus fatalities. China peaked at 60,005 infections on February 18, 2020. Infections started to spread in many European countries early March. Infections have started to come down in Iran and Germany - peaking at 38,490 and 74 674 on April 5 and 6, respectively. The number of infections in the U.S. surpassed all other countries on March 26 and is now more than four-times any other country so far.</p>
+            <p class="desc_country">
+              Many people might be asking, "Have we flattened the curve?" While it is difficult to determine what exactly causes the number of new cases to decline, the good news is that several countries have seen a decrease in the last 1-2 weeks. For U.S. and France, it is too soon to tell if the number of new cases has reached a peak but the rate of increase has slowed. China is back down to less than 100 new cases per day, while many countries are still deep in the middle of their COVID-19 crisis. 
+            </p>
           </div>
         </div>
       </div>
@@ -78,18 +95,18 @@
 
     <!-- Footer -->
     <footer class="row">
-        <div class="social">
-          &copy; 2020 Ellen Hsu&nbsp;
-          <a href="mailto:ellemonke@gmail.com" title="Email: ellemonke@gmail.com" target="_blank">
-            <i class="far fa-envelope"></i>
-          </a>
-          <a href="https://github.com/ellemonke" title="GitHub" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/ellenyhsu/" title="LinkedIn" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
+      <div class="social">
+        &copy; 2020 Ellen Hsu&nbsp;
+        <a href="mailto:ellemonke@gmail.com" title="Email: ellemonke@gmail.com" target="_blank">
+          <i class="far fa-envelope"></i>
+        </a>
+        <a href="https://github.com/ellemonke" title="GitHub" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ellenyhsu/" title="LinkedIn" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </footer>
 
   </div>
@@ -100,4 +117,5 @@
   <script src="static/js/index.js"></script>
 
 </body>
+
 </html>

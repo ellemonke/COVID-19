@@ -186,6 +186,10 @@ select.country {
     padding: 5px 20px 5px 0;
 }
 
+p.desc_country {
+    display: none;
+}
+
 .heading {
     background-color: #fff;
     border-radius: 5px;
