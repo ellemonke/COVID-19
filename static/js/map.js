@@ -77,8 +77,8 @@ function createMap(airports, confirmed) {
   };
 
   var myMap = L.map("map", {
-    center: [30, 10],
-    // center: [37, -98],
+    center: [25, 4],  // World
+    // center: [37, -98], // U.S.
     zoom: 2,
     layers: [streetmap, airports, confirmed]
   });
