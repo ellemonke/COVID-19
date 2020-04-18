@@ -1,23 +1,26 @@
 var airportUrl = "static/resources/airports/airports.geojson";
 var confirmedUrl = "static/resources/cases/confirmed.geojson";
-var last_day = '4/14/20';
 
 d3.json(airportUrl, function(airportData) {
-
+  
   var airports = createFeatures(airportData.features);
 
   d3.json(confirmedUrl, function(confirmedData) {
-    var confirmed = createHeatmap(confirmedData.features);
+    
+    var keys = Object.keys(confirmedData.features[0].properties);
+    var last_day = keys[keys.length-1];
+    var confirmed = createHeatmap(confirmedData.features, last_day);
 
-    createMap(airports, confirmed);
+    createMap(airports, confirmed, last_day);
+
   });  
-
 });
 
 
 function createFeatures(airportData) {
 
   function onEachFeature(feature, layer) {
+
     passengers = feature.properties['Total passengers']
     passengers = passengers.split(/ /).join('')
     layer.bindPopup("<b>" + feature.properties.Airport + "</b><br />" + 
@@ -31,11 +34,10 @@ function createFeatures(airportData) {
   });
 
   return markers;
-
 }
 
 
-function createHeatmap(confirmedData) {
+function createHeatmap(confirmedData, last_day) {
 
   var heatArray = [];
   
@@ -54,11 +56,10 @@ function createHeatmap(confirmedData) {
   });
 
   return heat;
-
 }
 
 
-function createMap(airports, confirmed) {
+function createMap(airports, confirmed, last_day) {
 
   var streetmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: `Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a> Last updated: <b>${last_day}</b>`,
@@ -86,5 +87,4 @@ function createMap(airports, confirmed) {
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(myMap);
-  
 }

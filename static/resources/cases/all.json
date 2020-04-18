@@ -1,30 +1,30 @@
 data = [
     {
         "Country_Region": "Afghanistan",
-        "Confirmed": 714,
-        "Recovered": 40.0,
-        "Fatalities": 23.0,
+        "Confirmed": 906,
+        "Recovered": 99.0,
+        "Fatalities": 30.0,
         "First Day": "2\/24\/20"
     },
     {
         "Country_Region": "Albania",
-        "Confirmed": 475,
-        "Recovered": 248.0,
-        "Fatalities": 24.0,
+        "Confirmed": 539,
+        "Recovered": 283.0,
+        "Fatalities": 26.0,
         "First Day": "3\/9\/20"
     },
     {
         "Country_Region": "Algeria",
-        "Confirmed": 2070,
-        "Recovered": 691.0,
-        "Fatalities": 326.0,
+        "Confirmed": 2418,
+        "Recovered": 846.0,
+        "Fatalities": 364.0,
         "First Day": "2\/25\/20"
     },
     {
         "Country_Region": "Andorra",
-        "Confirmed": 659,
-        "Recovered": 128.0,
-        "Fatalities": 31.0,
+        "Confirmed": 696,
+        "Recovered": 191.0,
+        "Fatalities": 35.0,
         "First Day": "3\/2\/20"
     },
     {
@@ -38,84 +38,84 @@ data = [
         "Country_Region": "Antigua and Barbuda",
         "Confirmed": 23,
         "Recovered": 3.0,
-        "Fatalities": 2.0,
+        "Fatalities": 3.0,
         "First Day": "3\/13\/20"
     },
     {
         "Country_Region": "Argentina",
-        "Confirmed": 2277,
-        "Recovered": 559.0,
-        "Fatalities": 102.0,
+        "Confirmed": 2669,
+        "Recovered": 666.0,
+        "Fatalities": 123.0,
         "First Day": "3\/3\/20"
     },
     {
         "Country_Region": "Armenia",
-        "Confirmed": 1067,
-        "Recovered": 265.0,
-        "Fatalities": 16.0,
+        "Confirmed": 1201,
+        "Recovered": 402.0,
+        "Fatalities": 19.0,
         "First Day": "3\/1\/20"
     },
     {
         "Country_Region": "Australia",
-        "Confirmed": 6415,
-        "Recovered": 2186.0,
-        "Fatalities": 62.0,
+        "Confirmed": 6522,
+        "Recovered": 3808.0,
+        "Fatalities": 66.0,
         "First Day": "1\/26\/20"
     },
     {
         "Country_Region": "Austria",
-        "Confirmed": 14226,
-        "Recovered": 7633.0,
-        "Fatalities": 384.0,
+        "Confirmed": 14595,
+        "Recovered": 9704.0,
+        "Fatalities": 431.0,
         "First Day": "2\/25\/20"
     },
     {
         "Country_Region": "Azerbaijan",
-        "Confirmed": 1197,
-        "Recovered": 351.0,
-        "Fatalities": 13.0,
+        "Confirmed": 1340,
+        "Recovered": 528.0,
+        "Fatalities": 15.0,
         "First Day": "3\/1\/20"
     },
     {
         "Country_Region": "Bahamas",
-        "Confirmed": 49,
+        "Confirmed": 54,
         "Recovered": 6.0,
-        "Fatalities": 8.0,
+        "Fatalities": 9.0,
         "First Day": "3\/16\/20"
     },
     {
         "Country_Region": "Bahrain",
-        "Confirmed": 1528,
-        "Recovered": 645.0,
+        "Confirmed": 1740,
+        "Recovered": 725.0,
         "Fatalities": 7.0,
         "First Day": "2\/24\/20"
     },
     {
         "Country_Region": "Bangladesh",
-        "Confirmed": 1012,
-        "Recovered": 42.0,
-        "Fatalities": 46.0,
+        "Confirmed": 1838,
+        "Recovered": 58.0,
+        "Fatalities": 75.0,
         "First Day": "3\/8\/20"
     },
     {
         "Country_Region": "Barbados",
-        "Confirmed": 72,
-        "Recovered": 13.0,
-        "Fatalities": 4.0,
+        "Confirmed": 75,
+        "Recovered": 15.0,
+        "Fatalities": 5.0,
         "First Day": "3\/17\/20"
     },
     {
         "Country_Region": "Belarus",
-        "Confirmed": 3281,
-        "Recovered": 203.0,
-        "Fatalities": 33.0,
+        "Confirmed": 4779,
+        "Recovered": 342.0,
+        "Fatalities": 42.0,
         "First Day": "2\/28\/20"
     },
     {
         "Country_Region": "Belgium",
-        "Confirmed": 31119,
-        "Recovered": 6868.0,
-        "Fatalities": 4157.0,
+        "Confirmed": 36138,
+        "Recovered": 7961.0,
+        "Fatalities": 5163.0,
         "First Day": "2\/4\/20"
     },
     {
@@ -141,57 +141,57 @@ data = [
     },
     {
         "Country_Region": "Bolivia",
-        "Confirmed": 354,
-        "Recovered": 6.0,
-        "Fatalities": 28.0,
+        "Confirmed": 465,
+        "Recovered": 26.0,
+        "Fatalities": 31.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "Bosnia and Herzegovina",
-        "Confirmed": 1083,
-        "Recovered": 236.0,
-        "Fatalities": 40.0,
+        "Confirmed": 1214,
+        "Recovered": 320.0,
+        "Fatalities": 46.0,
         "First Day": "3\/5\/20"
     },
     {
         "Country_Region": "Botswana",
-        "Confirmed": 13,
+        "Confirmed": 15,
         "Recovered": null,
         "Fatalities": 1.0,
         "First Day": "3\/30\/20"
     },
     {
         "Country_Region": "Brazil",
-        "Confirmed": 25262,
-        "Recovered": 3046.0,
-        "Fatalities": 1532.0,
+        "Confirmed": 33682,
+        "Recovered": 14026.0,
+        "Fatalities": 2141.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Brunei",
         "Confirmed": 136,
-        "Recovered": 107.0,
+        "Recovered": 112.0,
         "Fatalities": 1.0,
         "First Day": "3\/9\/20"
     },
     {
         "Country_Region": "Bulgaria",
-        "Confirmed": 713,
-        "Recovered": 81.0,
-        "Fatalities": 35.0,
+        "Confirmed": 846,
+        "Recovered": 141.0,
+        "Fatalities": 41.0,
         "First Day": "3\/8\/20"
     },
     {
         "Country_Region": "Burkina Faso",
-        "Confirmed": 528,
-        "Recovered": 177.0,
-        "Fatalities": 30.0,
+        "Confirmed": 557,
+        "Recovered": 294.0,
+        "Fatalities": 35.0,
         "First Day": "3\/10\/20"
     },
     {
         "Country_Region": "Burma",
-        "Confirmed": 63,
-        "Recovered": 2.0,
+        "Confirmed": 88,
+        "Recovered": 5.0,
         "Fatalities": 4.0,
         "First Day": "3\/27\/20"
     },
@@ -204,7 +204,7 @@ data = [
     },
     {
         "Country_Region": "Cabo Verde",
-        "Confirmed": 11,
+        "Confirmed": 56,
         "Recovered": 1.0,
         "Fatalities": 1.0,
         "First Day": "3\/20\/20"
@@ -212,133 +212,133 @@ data = [
     {
         "Country_Region": "Cambodia",
         "Confirmed": 122,
-        "Recovered": 91.0,
+        "Recovered": 98.0,
         "Fatalities": null,
         "First Day": "1\/27\/20"
     },
     {
         "Country_Region": "Cameroon",
-        "Confirmed": 848,
-        "Recovered": 130.0,
-        "Fatalities": 14.0,
+        "Confirmed": 996,
+        "Recovered": 164.0,
+        "Fatalities": 22.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Canada",
-        "Confirmed": 27034,
-        "Recovered": 8210.0,
-        "Fatalities": 899.0,
+        "Confirmed": 32813,
+        "Recovered": 10545.0,
+        "Fatalities": 1354.0,
         "First Day": "1\/26\/20"
     },
     {
         "Country_Region": "Central African Republic",
-        "Confirmed": 11,
+        "Confirmed": 12,
         "Recovered": 4.0,
         "Fatalities": null,
         "First Day": "3\/15\/20"
     },
     {
         "Country_Region": "Chad",
-        "Confirmed": 23,
-        "Recovered": 2.0,
+        "Confirmed": 27,
+        "Recovered": 5.0,
         "Fatalities": null,
         "First Day": "3\/19\/20"
     },
     {
         "Country_Region": "Chile",
-        "Confirmed": 7917,
-        "Recovered": 2646.0,
-        "Fatalities": 92.0,
+        "Confirmed": 9252,
+        "Recovered": 3621.0,
+        "Fatalities": 116.0,
         "First Day": "3\/3\/20"
     },
     {
         "Country_Region": "China",
-        "Confirmed": 83306,
-        "Recovered": 78200.0,
-        "Fatalities": 3345.0,
+        "Confirmed": 83760,
+        "Recovered": 77552.0,
+        "Fatalities": 4636.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Colombia",
-        "Confirmed": 2979,
-        "Recovered": 354.0,
-        "Fatalities": 127.0,
+        "Confirmed": 3439,
+        "Recovered": 634.0,
+        "Fatalities": 153.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Congo",
-        "Confirmed": 60,
-        "Recovered": 5.0,
-        "Fatalities": 5.0,
+        "Confirmed": 143,
+        "Recovered": 11.0,
+        "Fatalities": 6.0,
         "First Day": "3\/15\/20"
     },
     {
         "Country_Region": "Democratic Republic of Congo",
-        "Confirmed": 241,
-        "Recovered": 20.0,
-        "Fatalities": 20.0,
+        "Confirmed": 287,
+        "Recovered": 25.0,
+        "Fatalities": 23.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "Costa Rica",
-        "Confirmed": 618,
-        "Recovered": 66.0,
-        "Fatalities": 3.0,
+        "Confirmed": 649,
+        "Recovered": 88.0,
+        "Fatalities": 4.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Cote d'Ivoire",
-        "Confirmed": 638,
-        "Recovered": 114.0,
+        "Confirmed": 688,
+        "Recovered": 193.0,
         "Fatalities": 6.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "Croatia",
-        "Confirmed": 1704,
-        "Recovered": 415.0,
-        "Fatalities": 31.0,
+        "Confirmed": 1814,
+        "Recovered": 600.0,
+        "Fatalities": 36.0,
         "First Day": "2\/25\/20"
     },
     {
         "Country_Region": "Cuba",
-        "Confirmed": 766,
-        "Recovered": 132.0,
-        "Fatalities": 21.0,
+        "Confirmed": 923,
+        "Recovered": 192.0,
+        "Fatalities": 31.0,
         "First Day": "3\/12\/20"
     },
     {
         "Country_Region": "Cyprus",
-        "Confirmed": 695,
-        "Recovered": 65.0,
+        "Confirmed": 750,
+        "Recovered": 77.0,
         "Fatalities": 12.0,
         "First Day": "3\/9\/20"
     },
     {
         "Country_Region": "Czech Republic",
-        "Confirmed": 6111,
-        "Recovered": 642.0,
-        "Fatalities": 161.0,
+        "Confirmed": 6549,
+        "Recovered": 1174.0,
+        "Fatalities": 173.0,
         "First Day": "3\/1\/20"
     },
     {
         "Country_Region": "Denmark",
-        "Confirmed": 6706,
-        "Recovered": 2689.0,
-        "Fatalities": 299.0,
+        "Confirmed": 7268,
+        "Recovered": 3571.0,
+        "Fatalities": 336.0,
         "First Day": "2\/27\/20"
     },
     {
         "Country_Region": "Diamond Princess",
         "Confirmed": 712,
-        "Recovered": 639.0,
-        "Fatalities": 12.0,
+        "Recovered": 644.0,
+        "Fatalities": 13.0,
         "First Day": "2\/7\/20"
     },
     {
         "Country_Region": "Djibouti",
-        "Confirmed": 363,
-        "Recovered": 53.0,
+        "Confirmed": 732,
+        "Recovered": 76.0,
         "Fatalities": 2.0,
         "First Day": "3\/18\/20"
     },
@@ -351,92 +351,92 @@ data = [
     },
     {
         "Country_Region": "Dominican Republic",
-        "Confirmed": 3286,
-        "Recovered": 162.0,
-        "Fatalities": 183.0,
+        "Confirmed": 4126,
+        "Recovered": 268.0,
+        "Fatalities": 200.0,
         "First Day": "3\/1\/20"
     },
     {
         "Country_Region": "Ecuador",
-        "Confirmed": 7603,
-        "Recovered": 696.0,
-        "Fatalities": 369.0,
+        "Confirmed": 8450,
+        "Recovered": 838.0,
+        "Fatalities": 421.0,
         "First Day": "3\/1\/20"
     },
     {
         "Country_Region": "Egypt",
-        "Confirmed": 2350,
-        "Recovered": 589.0,
-        "Fatalities": 178.0,
+        "Confirmed": 2844,
+        "Recovered": 646.0,
+        "Fatalities": 205.0,
         "First Day": "2\/14\/20"
     },
     {
         "Country_Region": "El Salvador",
-        "Confirmed": 149,
-        "Recovered": 25.0,
-        "Fatalities": 6.0,
+        "Confirmed": 177,
+        "Recovered": 38.0,
+        "Fatalities": 7.0,
         "First Day": "3\/19\/20"
     },
     {
         "Country_Region": "Equatorial Guinea",
-        "Confirmed": 41,
+        "Confirmed": 79,
         "Recovered": 4.0,
         "Fatalities": null,
         "First Day": "3\/15\/20"
     },
     {
         "Country_Region": "Eritrea",
-        "Confirmed": 34,
+        "Confirmed": 35,
         "Recovered": null,
         "Fatalities": null,
         "First Day": "3\/21\/20"
     },
     {
         "Country_Region": "Estonia",
-        "Confirmed": 1373,
-        "Recovered": 115.0,
-        "Fatalities": 31.0,
+        "Confirmed": 1459,
+        "Recovered": 145.0,
+        "Fatalities": 38.0,
         "First Day": "2\/27\/20"
     },
     {
         "Country_Region": "Eswatini",
-        "Confirmed": 15,
+        "Confirmed": 16,
         "Recovered": 8.0,
-        "Fatalities": null,
+        "Fatalities": 1.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Ethiopia",
-        "Confirmed": 82,
-        "Recovered": 14.0,
+        "Confirmed": 96,
+        "Recovered": 15.0,
         "Fatalities": 3.0,
         "First Day": "3\/13\/20"
     },
     {
         "Country_Region": "Fiji",
-        "Confirmed": 16,
+        "Confirmed": 17,
         "Recovered": null,
         "Fatalities": null,
         "First Day": "3\/19\/20"
     },
     {
         "Country_Region": "Finland",
-        "Confirmed": 3161,
-        "Recovered": 300.0,
-        "Fatalities": 64.0,
+        "Confirmed": 3489,
+        "Recovered": 1700.0,
+        "Fatalities": 82.0,
         "First Day": "1\/29\/20"
     },
     {
         "Country_Region": "France",
-        "Confirmed": 131361,
-        "Recovered": 29098.0,
-        "Fatalities": 15748.0,
+        "Confirmed": 149130,
+        "Recovered": 35006.0,
+        "Fatalities": 18703.0,
         "First Day": "1\/24\/20"
     },
     {
         "Country_Region": "Gabon",
-        "Confirmed": 57,
-        "Recovered": 1.0,
+        "Confirmed": 108,
+        "Recovered": 7.0,
         "Fatalities": 1.0,
         "First Day": "3\/14\/20"
     },
@@ -449,70 +449,70 @@ data = [
     },
     {
         "Country_Region": "Georgia",
-        "Confirmed": 300,
-        "Recovered": 69.0,
+        "Confirmed": 370,
+        "Recovered": 79.0,
         "Fatalities": 3.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Germany",
-        "Confirmed": 131359,
-        "Recovered": 68200.0,
-        "Fatalities": 3294.0,
+        "Confirmed": 141397,
+        "Recovered": 83114.0,
+        "Fatalities": 4352.0,
         "First Day": "1\/27\/20"
     },
     {
         "Country_Region": "Ghana",
-        "Confirmed": 636,
-        "Recovered": 17.0,
+        "Confirmed": 641,
+        "Recovered": 83.0,
         "Fatalities": 8.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Greece",
-        "Confirmed": 2170,
+        "Confirmed": 2224,
         "Recovered": 269.0,
-        "Fatalities": 101.0,
+        "Fatalities": 108.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Grenada",
         "Confirmed": 14,
-        "Recovered": null,
+        "Recovered": 6.0,
         "Fatalities": null,
         "First Day": "3\/22\/20"
     },
     {
         "Country_Region": "Guatemala",
-        "Confirmed": 167,
-        "Recovered": 19.0,
-        "Fatalities": 5.0,
+        "Confirmed": 214,
+        "Recovered": 21.0,
+        "Fatalities": 7.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Guinea",
-        "Confirmed": 363,
-        "Recovered": 31.0,
-        "Fatalities": null,
+        "Confirmed": 477,
+        "Recovered": 59.0,
+        "Fatalities": 3.0,
         "First Day": "3\/13\/20"
     },
     {
         "Country_Region": "Guinea-Bissau",
-        "Confirmed": 38,
+        "Confirmed": 43,
         "Recovered": null,
         "Fatalities": null,
         "First Day": "3\/25\/20"
     },
     {
         "Country_Region": "Guyana",
-        "Confirmed": 47,
-        "Recovered": 8.0,
+        "Confirmed": 63,
+        "Recovered": 9.0,
         "Fatalities": 6.0,
         "First Day": "3\/12\/20"
     },
     {
         "Country_Region": "Haiti",
-        "Confirmed": 40,
+        "Confirmed": 43,
         "Recovered": 1.0,
         "Fatalities": 3.0,
         "First Day": "3\/20\/20"
@@ -526,169 +526,169 @@ data = [
     },
     {
         "Country_Region": "Honduras",
-        "Confirmed": 407,
-        "Recovered": 7.0,
-        "Fatalities": 26.0,
+        "Confirmed": 442,
+        "Recovered": 10.0,
+        "Fatalities": 41.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "Hungary",
-        "Confirmed": 1512,
-        "Recovered": 122.0,
-        "Fatalities": 122.0,
+        "Confirmed": 1763,
+        "Recovered": 207.0,
+        "Fatalities": 156.0,
         "First Day": "3\/4\/20"
     },
     {
         "Country_Region": "Iceland",
-        "Confirmed": 1720,
-        "Recovered": 989.0,
-        "Fatalities": 8.0,
+        "Confirmed": 1754,
+        "Recovered": 1224.0,
+        "Fatalities": 9.0,
         "First Day": "2\/28\/20"
     },
     {
         "Country_Region": "India",
-        "Confirmed": 11487,
-        "Recovered": 1359.0,
-        "Fatalities": 393.0,
+        "Confirmed": 14352,
+        "Recovered": 2041.0,
+        "Fatalities": 486.0,
         "First Day": "1\/30\/20"
     },
     {
         "Country_Region": "Indonesia",
-        "Confirmed": 4839,
-        "Recovered": 426.0,
-        "Fatalities": 459.0,
+        "Confirmed": 5923,
+        "Recovered": 607.0,
+        "Fatalities": 520.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Iran",
-        "Confirmed": 74877,
-        "Recovered": 48129.0,
-        "Fatalities": 4683.0,
+        "Confirmed": 79494,
+        "Recovered": 54064.0,
+        "Fatalities": 4958.0,
         "First Day": "2\/19\/20"
     },
     {
         "Country_Region": "Iraq",
-        "Confirmed": 1400,
-        "Recovered": 766.0,
-        "Fatalities": 78.0,
+        "Confirmed": 1482,
+        "Recovered": 906.0,
+        "Fatalities": 81.0,
         "First Day": "2\/24\/20"
     },
     {
         "Country_Region": "Ireland",
-        "Confirmed": 11479,
-        "Recovered": 25.0,
-        "Fatalities": 406.0,
+        "Confirmed": 13980,
+        "Recovered": 77.0,
+        "Fatalities": 530.0,
         "First Day": "2\/29\/20"
     },
     {
         "Country_Region": "Israel",
-        "Confirmed": 12046,
-        "Recovered": 2195.0,
-        "Fatalities": 123.0,
+        "Confirmed": 12982,
+        "Recovered": 3126.0,
+        "Fatalities": 151.0,
         "First Day": "2\/21\/20"
     },
     {
         "Country_Region": "Italy",
-        "Confirmed": 162488,
-        "Recovered": 37130.0,
-        "Fatalities": 21067.0,
+        "Confirmed": 172434,
+        "Recovered": 42727.0,
+        "Fatalities": 22745.0,
         "First Day": "1\/31\/20"
     },
     {
         "Country_Region": "Jamaica",
-        "Confirmed": 73,
-        "Recovered": 19.0,
-        "Fatalities": 4.0,
+        "Confirmed": 143,
+        "Recovered": 25.0,
+        "Fatalities": 5.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "Japan",
-        "Confirmed": 7645,
-        "Recovered": 799.0,
-        "Fatalities": 143.0,
+        "Confirmed": 9787,
+        "Recovered": 935.0,
+        "Fatalities": 190.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Jordan",
-        "Confirmed": 397,
-        "Recovered": 235.0,
+        "Confirmed": 407,
+        "Recovered": 265.0,
         "Fatalities": 7.0,
         "First Day": "3\/3\/20"
     },
     {
         "Country_Region": "Kazakhstan",
-        "Confirmed": 1232,
-        "Recovered": 203.0,
-        "Fatalities": 14.0,
+        "Confirmed": 1546,
+        "Recovered": 347.0,
+        "Fatalities": 17.0,
         "First Day": "3\/13\/20"
     },
     {
         "Country_Region": "Kenya",
-        "Confirmed": 216,
-        "Recovered": 41.0,
-        "Fatalities": 9.0,
+        "Confirmed": 246,
+        "Recovered": 53.0,
+        "Fatalities": 11.0,
         "First Day": "3\/13\/20"
     },
     {
         "Country_Region": "South Korea",
-        "Confirmed": 10564,
-        "Recovered": 7534.0,
-        "Fatalities": 222.0,
+        "Confirmed": 10635,
+        "Recovered": 7829.0,
+        "Fatalities": 230.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Kosovo",
-        "Confirmed": 387,
-        "Recovered": 66.0,
-        "Fatalities": 8.0,
+        "Confirmed": 480,
+        "Recovered": 84.0,
+        "Fatalities": 12.0,
         "First Day": "3\/26\/20"
     },
     {
         "Country_Region": "Kuwait",
-        "Confirmed": 1355,
-        "Recovered": 176.0,
-        "Fatalities": 3.0,
+        "Confirmed": 1658,
+        "Recovered": 258.0,
+        "Fatalities": 5.0,
         "First Day": "2\/24\/20"
     },
     {
         "Country_Region": "Kyrgyzstan",
-        "Confirmed": 430,
-        "Recovered": 71.0,
+        "Confirmed": 489,
+        "Recovered": 114.0,
         "Fatalities": 5.0,
         "First Day": "3\/18\/20"
     },
     {
         "Country_Region": "Laos",
         "Confirmed": 19,
-        "Recovered": 1.0,
+        "Recovered": 2.0,
         "Fatalities": null,
         "First Day": "3\/24\/20"
     },
     {
         "Country_Region": "Latvia",
-        "Confirmed": 657,
-        "Recovered": 16.0,
+        "Confirmed": 682,
+        "Recovered": 88.0,
         "Fatalities": 5.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Lebanon",
-        "Confirmed": 641,
-        "Recovered": 80.0,
+        "Confirmed": 668,
+        "Recovered": 86.0,
         "Fatalities": 21.0,
         "First Day": "2\/21\/20"
     },
     {
         "Country_Region": "Liberia",
-        "Confirmed": 59,
-        "Recovered": 4.0,
-        "Fatalities": 6.0,
+        "Confirmed": 76,
+        "Recovered": 7.0,
+        "Fatalities": 7.0,
         "First Day": "3\/16\/20"
     },
     {
         "Country_Region": "Libya",
-        "Confirmed": 35,
-        "Recovered": 9.0,
+        "Confirmed": 49,
+        "Recovered": 11.0,
         "Fatalities": 1.0,
         "First Day": "3\/24\/20"
     },
@@ -701,16 +701,16 @@ data = [
     },
     {
         "Country_Region": "Lithuania",
-        "Confirmed": 1070,
-        "Recovered": 101.0,
-        "Fatalities": 29.0,
+        "Confirmed": 1149,
+        "Recovered": 210.0,
+        "Fatalities": 33.0,
         "First Day": "2\/28\/20"
     },
     {
         "Country_Region": "Luxembourg",
-        "Confirmed": 3307,
-        "Recovered": 500.0,
-        "Fatalities": 67.0,
+        "Confirmed": 3480,
+        "Recovered": 579.0,
+        "Fatalities": 72.0,
         "First Day": "2\/29\/20"
     },
     {
@@ -722,43 +722,43 @@ data = [
     },
     {
         "Country_Region": "Madagascar",
-        "Confirmed": 108,
-        "Recovered": 23.0,
+        "Confirmed": 117,
+        "Recovered": 33.0,
         "Fatalities": null,
         "First Day": "3\/20\/20"
     },
     {
         "Country_Region": "Malawi",
-        "Confirmed": 16,
-        "Recovered": null,
+        "Confirmed": 17,
+        "Recovered": 3.0,
         "Fatalities": 2.0,
         "First Day": "4\/2\/20"
     },
     {
         "Country_Region": "Malaysia",
-        "Confirmed": 4987,
-        "Recovered": 2478.0,
-        "Fatalities": 82.0,
+        "Confirmed": 5251,
+        "Recovered": 2967.0,
+        "Fatalities": 86.0,
         "First Day": "1\/25\/20"
     },
     {
         "Country_Region": "Maldives",
-        "Confirmed": 20,
+        "Confirmed": 28,
         "Recovered": 16.0,
         "Fatalities": null,
         "First Day": "3\/8\/20"
     },
     {
         "Country_Region": "Mali",
-        "Confirmed": 144,
+        "Confirmed": 171,
         "Recovered": 34.0,
         "Fatalities": 13.0,
         "First Day": "3\/25\/20"
     },
     {
         "Country_Region": "Malta",
-        "Confirmed": 393,
-        "Recovered": 44.0,
+        "Confirmed": 422,
+        "Recovered": 91.0,
         "Fatalities": 3.0,
         "First Day": "3\/7\/20"
     },
@@ -772,55 +772,55 @@ data = [
     {
         "Country_Region": "Mauritius",
         "Confirmed": 324,
-        "Recovered": 51.0,
+        "Recovered": 108.0,
         "Fatalities": 9.0,
         "First Day": "3\/18\/20"
     },
     {
         "Country_Region": "Mexico",
-        "Confirmed": 5014,
-        "Recovered": 1964.0,
-        "Fatalities": 332.0,
+        "Confirmed": 6297,
+        "Recovered": 2125.0,
+        "Fatalities": 486.0,
         "First Day": "2\/28\/20"
     },
     {
         "Country_Region": "Moldova",
-        "Confirmed": 1934,
-        "Recovered": 134.0,
-        "Fatalities": 40.0,
+        "Confirmed": 2264,
+        "Recovered": 276.0,
+        "Fatalities": 56.0,
         "First Day": "3\/8\/20"
     },
     {
         "Country_Region": "Monaco",
-        "Confirmed": 93,
-        "Recovered": 6.0,
-        "Fatalities": 1.0,
+        "Confirmed": 94,
+        "Recovered": 20.0,
+        "Fatalities": 3.0,
         "First Day": "2\/29\/20"
     },
     {
         "Country_Region": "Mongolia",
-        "Confirmed": 30,
+        "Confirmed": 31,
         "Recovered": 5.0,
         "Fatalities": null,
         "First Day": "3\/10\/20"
     },
     {
         "Country_Region": "Montenegro",
-        "Confirmed": 283,
-        "Recovered": 46.0,
-        "Fatalities": 4.0,
+        "Confirmed": 303,
+        "Recovered": 55.0,
+        "Fatalities": 5.0,
         "First Day": "3\/17\/20"
     },
     {
         "Country_Region": "Morocco",
-        "Confirmed": 1888,
-        "Recovered": 217.0,
-        "Fatalities": 126.0,
+        "Confirmed": 2564,
+        "Recovered": 281.0,
+        "Fatalities": 135.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Mozambique",
-        "Confirmed": 28,
+        "Confirmed": 34,
         "Recovered": 2.0,
         "Fatalities": null,
         "First Day": "3\/22\/20"
@@ -828,29 +828,29 @@ data = [
     {
         "Country_Region": "Namibia",
         "Confirmed": 16,
-        "Recovered": 3.0,
+        "Recovered": 4.0,
         "Fatalities": null,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Nepal",
-        "Confirmed": 16,
-        "Recovered": 1.0,
+        "Confirmed": 30,
+        "Recovered": 2.0,
         "Fatalities": null,
         "First Day": "1\/25\/20"
     },
     {
         "Country_Region": "Netherlands",
-        "Confirmed": 27580,
-        "Recovered": 297.0,
-        "Fatalities": 2955.0,
+        "Confirmed": 30619,
+        "Recovered": 315.0,
+        "Fatalities": 3471.0,
         "First Day": "2\/27\/20"
     },
     {
         "Country_Region": "New Zealand",
-        "Confirmed": 1366,
-        "Recovered": 628.0,
-        "Fatalities": 9.0,
+        "Confirmed": 1409,
+        "Recovered": 816.0,
+        "Fatalities": 11.0,
         "First Day": "2\/28\/20"
     },
     {
@@ -862,120 +862,120 @@ data = [
     },
     {
         "Country_Region": "Niger",
-        "Confirmed": 570,
-        "Recovered": 90.0,
-        "Fatalities": 14.0,
+        "Confirmed": 627,
+        "Recovered": 110.0,
+        "Fatalities": 18.0,
         "First Day": "3\/20\/20"
     },
     {
         "Country_Region": "Nigeria",
-        "Confirmed": 373,
-        "Recovered": 99.0,
-        "Fatalities": 11.0,
+        "Confirmed": 493,
+        "Recovered": 159.0,
+        "Fatalities": 17.0,
         "First Day": "2\/28\/20"
     },
     {
         "Country_Region": "North Macedonia",
-        "Confirmed": 908,
-        "Recovered": 86.0,
-        "Fatalities": 44.0,
+        "Confirmed": 1117,
+        "Recovered": 139.0,
+        "Fatalities": 49.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Norway",
-        "Confirmed": 6623,
+        "Confirmed": 6937,
         "Recovered": 32.0,
-        "Fatalities": 139.0,
+        "Fatalities": 161.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Oman",
-        "Confirmed": 813,
-        "Recovered": 130.0,
-        "Fatalities": 4.0,
+        "Confirmed": 1069,
+        "Recovered": 176.0,
+        "Fatalities": 6.0,
         "First Day": "2\/24\/20"
     },
     {
         "Country_Region": "Pakistan",
-        "Confirmed": 5837,
-        "Recovered": 1378.0,
-        "Fatalities": 96.0,
+        "Confirmed": 7025,
+        "Recovered": 1765.0,
+        "Fatalities": 135.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Panama",
-        "Confirmed": 3472,
-        "Recovered": 61.0,
-        "Fatalities": 94.0,
+        "Confirmed": 4016,
+        "Recovered": 98.0,
+        "Fatalities": 109.0,
         "First Day": "3\/10\/20"
     },
     {
         "Country_Region": "Papua New Guinea",
-        "Confirmed": 2,
+        "Confirmed": 7,
         "Recovered": null,
         "Fatalities": null,
         "First Day": "3\/20\/20"
     },
     {
         "Country_Region": "Paraguay",
-        "Confirmed": 159,
-        "Recovered": 22.0,
-        "Fatalities": 7.0,
+        "Confirmed": 199,
+        "Recovered": 30.0,
+        "Fatalities": 8.0,
         "First Day": "3\/8\/20"
     },
     {
         "Country_Region": "Peru",
-        "Confirmed": 10303,
-        "Recovered": 2869.0,
-        "Fatalities": 230.0,
+        "Confirmed": 13489,
+        "Recovered": 6541.0,
+        "Fatalities": 300.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Philippines",
-        "Confirmed": 5223,
-        "Recovered": 295.0,
-        "Fatalities": 335.0,
+        "Confirmed": 5878,
+        "Recovered": 487.0,
+        "Fatalities": 387.0,
         "First Day": "1\/30\/20"
     },
     {
         "Country_Region": "Poland",
-        "Confirmed": 7202,
-        "Recovered": 618.0,
-        "Fatalities": 263.0,
+        "Confirmed": 8379,
+        "Recovered": 866.0,
+        "Fatalities": 332.0,
         "First Day": "3\/4\/20"
     },
     {
         "Country_Region": "Portugal",
-        "Confirmed": 17448,
-        "Recovered": 347.0,
-        "Fatalities": 567.0,
+        "Confirmed": 19022,
+        "Recovered": 519.0,
+        "Fatalities": 657.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Qatar",
-        "Confirmed": 3428,
-        "Recovered": 373.0,
+        "Confirmed": 4663,
+        "Recovered": 464.0,
         "Fatalities": 7.0,
         "First Day": "2\/29\/20"
     },
     {
         "Country_Region": "Romania",
-        "Confirmed": 6879,
-        "Recovered": 1051.0,
-        "Fatalities": 351.0,
+        "Confirmed": 8067,
+        "Recovered": 1508.0,
+        "Fatalities": 411.0,
         "First Day": "2\/26\/20"
     },
     {
         "Country_Region": "Russia",
-        "Confirmed": 21102,
-        "Recovered": 1694.0,
-        "Fatalities": 170.0,
+        "Confirmed": 32008,
+        "Recovered": 2590.0,
+        "Fatalities": 273.0,
         "First Day": "1\/31\/20"
     },
     {
         "Country_Region": "Rwanda",
-        "Confirmed": 134,
-        "Recovered": 49.0,
+        "Confirmed": 143,
+        "Recovered": 65.0,
         "Fatalities": null,
         "First Day": "3\/14\/20"
     },
@@ -1002,9 +1002,9 @@ data = [
     },
     {
         "Country_Region": "San Marino",
-        "Confirmed": 371,
-        "Recovered": 53.0,
-        "Fatalities": 36.0,
+        "Confirmed": 435,
+        "Recovered": 57.0,
+        "Fatalities": 39.0,
         "First Day": "2\/27\/20"
     },
     {
@@ -1016,72 +1016,72 @@ data = [
     },
     {
         "Country_Region": "Saudi Arabia",
-        "Confirmed": 5369,
-        "Recovered": 889.0,
-        "Fatalities": 73.0,
+        "Confirmed": 7142,
+        "Recovered": 1049.0,
+        "Fatalities": 87.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Senegal",
-        "Confirmed": 299,
-        "Recovered": 183.0,
+        "Confirmed": 342,
+        "Recovered": 198.0,
         "Fatalities": 2.0,
         "First Day": "3\/2\/20"
     },
     {
         "Country_Region": "Serbia",
-        "Confirmed": 4465,
-        "Recovered": 15.0,
-        "Fatalities": 94.0,
+        "Confirmed": 5690,
+        "Recovered": 534.0,
+        "Fatalities": 110.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Seychelles",
         "Confirmed": 11,
-        "Recovered": null,
+        "Recovered": 5.0,
         "Fatalities": null,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Sierra Leone",
-        "Confirmed": 11,
+        "Confirmed": 26,
         "Recovered": null,
         "Fatalities": null,
         "First Day": "3\/31\/20"
     },
     {
         "Country_Region": "Singapore",
-        "Confirmed": 3252,
-        "Recovered": 611.0,
-        "Fatalities": 10.0,
+        "Confirmed": 5050,
+        "Recovered": 708.0,
+        "Fatalities": 11.0,
         "First Day": "1\/23\/20"
     },
     {
         "Country_Region": "Slovakia",
-        "Confirmed": 835,
-        "Recovered": 113.0,
-        "Fatalities": 2.0,
+        "Confirmed": 1049,
+        "Recovered": 175.0,
+        "Fatalities": 9.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Slovenia",
-        "Confirmed": 1220,
-        "Recovered": 152.0,
-        "Fatalities": 56.0,
+        "Confirmed": 1304,
+        "Recovered": 174.0,
+        "Fatalities": 66.0,
         "First Day": "3\/5\/20"
     },
     {
         "Country_Region": "Somalia",
-        "Confirmed": 60,
+        "Confirmed": 116,
         "Recovered": 2.0,
-        "Fatalities": 2.0,
+        "Fatalities": 6.0,
         "First Day": "3\/16\/20"
     },
     {
         "Country_Region": "South Africa",
-        "Confirmed": 2415,
-        "Recovered": 410.0,
-        "Fatalities": 27.0,
+        "Confirmed": 2783,
+        "Recovered": 903.0,
+        "Fatalities": 50.0,
         "First Day": "3\/5\/20"
     },
     {
@@ -1093,23 +1093,23 @@ data = [
     },
     {
         "Country_Region": "Spain",
-        "Confirmed": 172541,
-        "Recovered": 67504.0,
-        "Fatalities": 18056.0,
+        "Confirmed": 190839,
+        "Recovered": 74797.0,
+        "Fatalities": 20002.0,
         "First Day": "2\/1\/20"
     },
     {
         "Country_Region": "Sri Lanka",
-        "Confirmed": 233,
-        "Recovered": 61.0,
+        "Confirmed": 244,
+        "Recovered": 77.0,
         "Fatalities": 7.0,
         "First Day": "1\/27\/20"
     },
     {
         "Country_Region": "Sudan",
-        "Confirmed": 32,
+        "Confirmed": 33,
         "Recovered": 4.0,
-        "Fatalities": 5.0,
+        "Fatalities": 6.0,
         "First Day": "3\/13\/20"
     },
     {
@@ -1121,148 +1121,148 @@ data = [
     },
     {
         "Country_Region": "Sweden",
-        "Confirmed": 11445,
-        "Recovered": 381.0,
-        "Fatalities": 1033.0,
+        "Confirmed": 13216,
+        "Recovered": 550.0,
+        "Fatalities": 1400.0,
         "First Day": "1\/31\/20"
     },
     {
         "Country_Region": "Switzerland",
-        "Confirmed": 25936,
-        "Recovered": 13700.0,
-        "Fatalities": 1174.0,
+        "Confirmed": 27078,
+        "Recovered": 16400.0,
+        "Fatalities": 1327.0,
         "First Day": "2\/25\/20"
     },
     {
         "Country_Region": "Syria",
-        "Confirmed": 29,
+        "Confirmed": 38,
         "Recovered": 5.0,
         "Fatalities": 2.0,
         "First Day": "3\/22\/20"
     },
     {
         "Country_Region": "Taiwan",
-        "Confirmed": 393,
-        "Recovered": 124.0,
+        "Confirmed": 395,
+        "Recovered": 166.0,
         "Fatalities": 6.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Tanzania",
-        "Confirmed": 53,
-        "Recovered": 7.0,
-        "Fatalities": 3.0,
+        "Confirmed": 147,
+        "Recovered": 11.0,
+        "Fatalities": 5.0,
         "First Day": "3\/16\/20"
     },
     {
         "Country_Region": "Thailand",
-        "Confirmed": 2613,
-        "Recovered": 1405.0,
-        "Fatalities": 41.0,
+        "Confirmed": 2700,
+        "Recovered": 1689.0,
+        "Fatalities": 47.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Timor-Leste",
-        "Confirmed": 6,
+        "Confirmed": 18,
         "Recovered": 1.0,
         "Fatalities": null,
         "First Day": "3\/22\/20"
     },
     {
         "Country_Region": "Togo",
-        "Confirmed": 77,
-        "Recovered": 32.0,
-        "Fatalities": 3.0,
+        "Confirmed": 83,
+        "Recovered": 48.0,
+        "Fatalities": 5.0,
         "First Day": "3\/6\/20"
     },
     {
         "Country_Region": "Trinidad and Tobago",
-        "Confirmed": 113,
-        "Recovered": 17.0,
+        "Confirmed": 114,
+        "Recovered": 20.0,
         "Fatalities": 8.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Tunisia",
-        "Confirmed": 747,
+        "Confirmed": 864,
         "Recovered": 43.0,
-        "Fatalities": 34.0,
+        "Fatalities": 37.0,
         "First Day": "3\/4\/20"
     },
     {
         "Country_Region": "Turkey",
-        "Confirmed": 65111,
-        "Recovered": 4799.0,
-        "Fatalities": 1403.0,
+        "Confirmed": 78546,
+        "Recovered": 8631.0,
+        "Fatalities": 1769.0,
         "First Day": "3\/11\/20"
     },
     {
         "Country_Region": "United States",
-        "Confirmed": 607670,
-        "Recovered": 47763.0,
-        "Fatalities": 25832.0,
+        "Confirmed": 699706,
+        "Recovered": 58545.0,
+        "Fatalities": 36773.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Uganda",
-        "Confirmed": 55,
-        "Recovered": 8.0,
+        "Confirmed": 56,
+        "Recovered": 20.0,
         "Fatalities": null,
         "First Day": "3\/21\/20"
     },
     {
         "Country_Region": "Ukraine",
-        "Confirmed": 3372,
-        "Recovered": 119.0,
-        "Fatalities": 98.0,
+        "Confirmed": 4662,
+        "Recovered": 246.0,
+        "Fatalities": 125.0,
         "First Day": "3\/3\/20"
     },
     {
         "Country_Region": "United Arab Emirates",
-        "Confirmed": 4933,
-        "Recovered": 933.0,
-        "Fatalities": 28.0,
+        "Confirmed": 6302,
+        "Recovered": 1188.0,
+        "Fatalities": 37.0,
         "First Day": "1\/29\/20"
     },
     {
         "Country_Region": "United Kingdom",
-        "Confirmed": 94845,
-        "Recovered": 323.0,
-        "Fatalities": 12129.0,
+        "Confirmed": 109769,
+        "Recovered": 394.0,
+        "Fatalities": 14607.0,
         "First Day": "1\/31\/20"
     },
     {
         "Country_Region": "Uruguay",
-        "Confirmed": 483,
-        "Recovered": 248.0,
-        "Fatalities": 8.0,
+        "Confirmed": 502,
+        "Recovered": 286.0,
+        "Fatalities": 9.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Uzbekistan",
-        "Confirmed": 1165,
-        "Recovered": 99.0,
+        "Confirmed": 1405,
+        "Recovered": 156.0,
         "Fatalities": 4.0,
         "First Day": "3\/15\/20"
     },
     {
         "Country_Region": "Venezuela",
-        "Confirmed": 189,
-        "Recovered": 110.0,
+        "Confirmed": 204,
+        "Recovered": 111.0,
         "Fatalities": 9.0,
         "First Day": "3\/14\/20"
     },
     {
         "Country_Region": "Vietnam",
-        "Confirmed": 266,
-        "Recovered": 169.0,
+        "Confirmed": 268,
+        "Recovered": 198.0,
         "Fatalities": null,
         "First Day": "1\/23\/20"
     },
     {
         "Country_Region": "West Bank and Gaza",
-        "Confirmed": 308,
-        "Recovered": 62.0,
+        "Confirmed": 402,
+        "Recovered": 69.0,
         "Fatalities": 2.0,
         "First Day": "3\/5\/20"
     },
@@ -1282,30 +1282,30 @@ data = [
     },
     {
         "Country_Region": "Zambia",
-        "Confirmed": 45,
+        "Confirmed": 52,
         "Recovered": 30.0,
         "Fatalities": 2.0,
         "First Day": "3\/18\/20"
     },
     {
         "Country_Region": "Zimbabwe",
-        "Confirmed": 17,
-        "Recovered": null,
+        "Confirmed": 24,
+        "Recovered": 2.0,
         "Fatalities": 3.0,
         "First Day": "3\/20\/20"
     },
     {
         "Country_Region": "Global",
-        "Confirmed": 1976191,
-        "Recovered": 474261.0,
-        "Fatalities": 125984.0,
+        "Confirmed": 2240190,
+        "Recovered": 568343.0,
+        "Fatalities": 153821.0,
         "First Day": "1\/22\/20"
     },
     {
         "Country_Region": "Global",
-        "Confirmed": 3952382,
-        "Recovered": 948538.0,
-        "Fatalities": 251968.0,
+        "Confirmed": 4480380,
+        "Recovered": 1136687.0,
+        "Fatalities": 307642.0,
         "First Day": "1\/22\/20"
     }
 ]
