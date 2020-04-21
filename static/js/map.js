@@ -43,7 +43,7 @@ function createHeatmap(confirmedData, last_day) {
   
   for (var i = 0; i < confirmedData.length; i++) {
     var location = confirmedData[i].geometry;
-    var infections = confirmedData[i].properties[last_day];
+    var infections = confirmedData[i].properties[last_day]/2;
 
     if (infections) {
       heatArray.push([location.coordinates[1], location.coordinates[0], infections]);
@@ -81,6 +81,7 @@ function createMap(airports, confirmed, last_day) {
     center: [25, 4],  // World
     // center: [37, -98], // U.S.
     zoom: 2,
+    minZoom: 2,
     layers: [streetmap, airports, confirmed]
   });
 
