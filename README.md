@@ -8,7 +8,7 @@ This project analyzes the current COVID-19 epidemic from three perspectives:
 https://ellemonke.github.io/COVID-19
 
 ### Screenshots
-<img src="screenshots/screenshot_covid19_1.png" /><br>
+<img src="screenshots/screenshot_covid19_1.png" />
 <img src="screenshots/screenshot_covid19_2.png" /><br>
 <img src="screenshots/screenshot_covid19_3.png" /><br>
 
