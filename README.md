@@ -8,9 +8,8 @@ This project analyzes the current COVID-19 epidemic from three perspectives:
 https://ellemonke.github.io/COVID-19
 
 ### Screenshots
-<img src="screenshots/screenshot_covid19_1.png" />
-<img src="screenshots/screenshot_covid19_2.png" /><br>
-<img src="screenshots/screenshot_covid19_3.png" /><br>
+<img src="screenshots/screenshot_covid19_1.png" width="430" />
+<img src="screenshots/screenshot_covid19_2.png" width="430" /><br>
 
 ### Data Sources:
 - ["Novel Coronavirus (COVID-19) Cases", CSSE at Johns Hopkins University on GitHub](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
