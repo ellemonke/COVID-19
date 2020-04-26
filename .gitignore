@@ -1,4 +1,5 @@
 .DS_Store
+bak/
 .ipynb_checkpoints/
 __pycache__
 config.js
